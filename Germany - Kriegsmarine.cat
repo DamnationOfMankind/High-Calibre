@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="77ed-c661-da0c-f1e3" name="Germany - Kriegsmarine" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="4728-e1b0-9a4c-5ecd" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="d799-411f-c0b6-92e1" name="&quot;Bismarck&quot; Bismarck-class Battleship [COM]" hidden="false" collective="false" import="true" targetId="aaef-4fe3-6fae-8091" type="selectionEntry"/>
+    <entryLink id="8f2e-2e93-1894-c206" name="Admiral Hipper-class Heavy Cruiser" hidden="false" collective="false" import="true" targetId="77ac-ca90-29bd-8b81" type="selectionEntry"/>
+    <entryLink id="05aa-f624-2d01-85ad" name="&quot;Graf Zeppelin&quot;" hidden="false" collective="false" import="true" targetId="e042-d5c8-ecef-c464" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="aaef-4fe3-6fae-8091" name="&quot;Bismarck&quot; Bismarck-class Battleship [COM]" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e291-9234-7cd9-e11f" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="2e21-43c5-a34f-68c7" name="&apos;1-2 Armament" hidden="false" typeId="13f0-0ce8-9020-3ff3" typeName="(b) Armour Pen">
+          <characteristics>
+            <characteristic name="Direct Hit" typeId="4d33-6ed1-47d8-d62c">20-22</characteristic>
+            <characteristic name="Dev. Hit" typeId="aaef-8982-1722-9639">23-25</characteristic>
+            <characteristic name="Critical Hit" typeId="5fc4-80f8-9769-b93c">26+</characteristic>
+            <characteristic name="Damage Capacity" typeId="ac37-eb9c-68b1-c8c4">16</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="52bd-402a-3eae-11af" name="&apos;3-5 Superstructure" hidden="false" typeId="13f0-0ce8-9020-3ff3" typeName="(b) Armour Pen">
+          <characteristics>
+            <characteristic name="Direct Hit" typeId="4d33-6ed1-47d8-d62c">12-14</characteristic>
+            <characteristic name="Dev. Hit" typeId="aaef-8982-1722-9639">15-17</characteristic>
+            <characteristic name="Critical Hit" typeId="5fc4-80f8-9769-b93c">18+ (OP)</characteristic>
+            <characteristic name="Damage Capacity" typeId="ac37-eb9c-68b1-c8c4">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ce73-8fa8-06e2-c74e" name="&apos;6-9 Deck" hidden="false" typeId="13f0-0ce8-9020-3ff3" typeName="(b) Armour Pen">
+          <characteristics>
+            <characteristic name="Direct Hit" typeId="4d33-6ed1-47d8-d62c">15-17</characteristic>
+            <characteristic name="Dev. Hit" typeId="aaef-8982-1722-9639">18-20</characteristic>
+            <characteristic name="Critical Hit" typeId="5fc4-80f8-9769-b93c">21+</characteristic>
+            <characteristic name="Damage Capacity" typeId="ac37-eb9c-68b1-c8c4">18</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5ae2-6dce-8458-7dac" name="10-12 Main Belt" hidden="false" typeId="13f0-0ce8-9020-3ff3" typeName="(b) Armour Pen">
+          <characteristics>
+            <characteristic name="Direct Hit" typeId="4d33-6ed1-47d8-d62c">19-21</characteristic>
+            <characteristic name="Dev. Hit" typeId="aaef-8982-1722-9639">22-24</characteristic>
+            <characteristic name="Critical Hit" typeId="5fc4-80f8-9769-b93c">25+</characteristic>
+            <characteristic name="Damage Capacity" typeId="ac37-eb9c-68b1-c8c4">21</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8d52-5402-51a1-ae28" name="[BB]" hidden="false" targetId="0523-c0db-1ab4-4720" type="rule"/>
+        <infoLink id="b05c-4f27-2496-438c" name="[1] 150mm SK C/28 " hidden="false" targetId="bfac-dee1-a046-94b8" type="profile"/>
+        <infoLink id="e9ea-45d4-47cf-1f4f" name="[2] 150mm SK C/28 (Bismarck)" hidden="false" targetId="8f59-f6fa-664d-9950" type="profile"/>
+        <infoLink id="083c-387d-18e0-52af" name="[3] 105mm FlaK 38" hidden="false" targetId="a41e-cd8f-c9ec-f3d0" type="profile"/>
+        <infoLink id="8e7d-70f9-fd76-9551" name="[4] 105mm FlaK 38" hidden="false" targetId="2ded-6be7-848b-575a" type="profile"/>
+        <infoLink id="7edc-5a3b-3736-f36a" name="[5] 37mm SK C/30 (Bismarck)" hidden="false" targetId="8a93-1651-512c-b29b" type="profile"/>
+        <infoLink id="f241-494b-c434-a284" name="[6] 37mm SK C/30" hidden="false" targetId="5068-c623-af15-845d" type="profile"/>
+        <infoLink id="96c7-fd42-948f-02f3" name="[7] 20mm FlaK 30 (Bismarck)" hidden="false" targetId="de9d-4444-1295-e4c7" type="profile"/>
+        <infoLink id="f1c5-109e-7635-881d" name="[3] 380mm SK C/34 Twin battery [ ]" hidden="false" targetId="5428-e81f-e364-1724" type="profile"/>
+        <infoLink id="2307-6c06-8242-4e60" name="[4] 380mm SK C/34 Twin battery [ ]" hidden="false" targetId="bf90-7b25-6d3f-0835" type="profile"/>
+        <infoLink id="cd5f-4ade-fdd8-28a4" name="[COM]" hidden="false" targetId="7750-b6b0-763f-2d48" type="rule"/>
+        <infoLink id="ba7b-f3a2-1881-7441" name="[1] 380mm SK C/34 Twin battery [ ]" hidden="false" targetId="c4d7-fafc-092f-797a" type="profile"/>
+        <infoLink id="525a-a087-35ad-7c94" name="[2] 380mm SK C/34 Twin battery [ ]" hidden="false" targetId="59e4-04cd-ee46-40dd" type="profile"/>
+        <infoLink id="3ea5-3858-68e7-3948" name="Bismarck [BB]" hidden="false" targetId="aab8-c7a8-d8b1-c408" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1019-d709-85d6-30b7" name="Germany - Kriegsmarine" hidden="false" targetId="c56a-dc30-18cc-f828" primary="false"/>
+        <categoryLink id="3133-bb0a-bcb9-4463" name="[BB] Battleships" hidden="false" targetId="077f-eca1-7e92-9cd0" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1777-b974-2e62-96e2" name="Universal Refit Upgrades [BB]" hidden="false" collective="false" import="true" targetId="380c-3875-3372-cb4b" type="selectionEntryGroup"/>
+        <entryLink id="545d-2ae7-48d0-ee62" name="Universal Utility Modules [BB]" hidden="false" collective="false" import="true" targetId="4466-1fd3-988b-1908" type="selectionEntryGroup"/>
+        <entryLink id="1884-1ac8-9fde-5ab6" name="Commander on Board" hidden="false" collective="false" import="true" targetId="b9a8-4299-cfac-9734" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="PC" typeId="ad49-076b-3854-f063" value="265.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1930-d721-eea3-75a6" name="Admiral Gunther Lutjens" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7806-f6e6-da2d-f822" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="398d-61c3-fa2f-4a78" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="b8ca-6af1-a8ae-91de" name="Admiral Gunther Lutjens" hidden="false" targetId="a191-0a4f-26fa-ae63" type="profile"/>
+        <infoLink id="9607-20be-c372-68c1" name="Ability (Lutjens)" hidden="false" targetId="d4ec-b7ee-a6d2-a6e4" type="profile"/>
+        <infoLink id="a506-856f-0ae0-eeb6" name="Tactical Bonus (Lutjens)" hidden="false" targetId="2be9-7085-b252-d0a0" type="profile"/>
+        <infoLink id="4e3e-62ca-0a11-cb37" name="Fleet Restrictions (Lutjens)" hidden="false" targetId="57d9-9a67-16f0-4af9" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3dd2-c9e9-32cf-6f15" name="Commanders" hidden="false" targetId="e4c2-8786-f1de-bbea" primary="true"/>
+        <categoryLink id="c6e8-e84d-dd78-4d0b" name="Germany - Kriegsmarine" hidden="false" targetId="c56a-dc30-18cc-f828" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="PC" typeId="ad49-076b-3854-f063" value="50.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="77ac-ca90-29bd-8b81" name="Admiral Hipper-class Heavy Cruiser" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="8042-4fb4-41c8-9136" name="[CA] Heavy Cruisers" hidden="false" targetId="b549-3b8b-9132-8a5f" primary="true"/>
+        <categoryLink id="82b3-3a78-9091-7d59" name="Germany - Kriegsmarine" hidden="false" targetId="c56a-dc30-18cc-f828" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="4545-465e-ca75-34d2" name="Admiral Hipper-class Heavy Cruiser" hidden="false" collective="false" import="true" targetId="be25-e4e2-e0f5-f7d7" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="PC" typeId="ad49-076b-3854-f063" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2408-0152-c601-7aee" name="&quot;Admiral Hipper&quot;" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8717-60a8-01be-32d7" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28c6-d29f-59d0-6e1a" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="769e-cf27-2b00-a661" name="&apos;1-2 Armament" hidden="false" typeId="13f0-0ce8-9020-3ff3" typeName="(b) Armour Pen">
+          <characteristics>
+            <characteristic name="Direct Hit" typeId="4d33-6ed1-47d8-d62c">13-15</characteristic>
+            <characteristic name="Dev. Hit" typeId="aaef-8982-1722-9639">16-18</characteristic>
+            <characteristic name="Critical Hit" typeId="5fc4-80f8-9769-b93c">19+</characteristic>
+            <characteristic name="Damage Capacity" typeId="ac37-eb9c-68b1-c8c4">14</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="b3f0-99e3-0841-dc2d" name="&apos;3-5 Superstructure" hidden="false" typeId="13f0-0ce8-9020-3ff3" typeName="(b) Armour Pen">
+          <characteristics>
+            <characteristic name="Direct Hit" typeId="4d33-6ed1-47d8-d62c">11-13</characteristic>
+            <characteristic name="Dev. Hit" typeId="aaef-8982-1722-9639">14-16</characteristic>
+            <characteristic name="Critical Hit" typeId="5fc4-80f8-9769-b93c">17+(OP)</characteristic>
+            <characteristic name="Damage Capacity" typeId="ac37-eb9c-68b1-c8c4">13</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fad0-fef9-54f5-497a" name="&apos;6-9 Deck" hidden="false" typeId="13f0-0ce8-9020-3ff3" typeName="(b) Armour Pen">
+          <characteristics>
+            <characteristic name="Direct Hit" typeId="4d33-6ed1-47d8-d62c">13-15
+</characteristic>
+            <characteristic name="Dev. Hit" typeId="aaef-8982-1722-9639">16-18
+</characteristic>
+            <characteristic name="Critical Hit" typeId="5fc4-80f8-9769-b93c">19+
+</characteristic>
+            <characteristic name="Damage Capacity" typeId="ac37-eb9c-68b1-c8c4">19
+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="8745-94c9-5938-f4c1" name="10-12 Main Belt" hidden="false" typeId="13f0-0ce8-9020-3ff3" typeName="(b) Armour Pen">
+          <characteristics>
+            <characteristic name="Direct Hit" typeId="4d33-6ed1-47d8-d62c">13-15</characteristic>
+            <characteristic name="Dev. Hit" typeId="aaef-8982-1722-9639">16-18</characteristic>
+            <characteristic name="Critical Hit" typeId="5fc4-80f8-9769-b93c">19+</characteristic>
+            <characteristic name="Damage Capacity" typeId="ac37-eb9c-68b1-c8c4">17</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a89f-6b6e-6baa-e5aa" name="[CA] Admiral Hipper-class Heavy Cruiser " hidden="false" targetId="0791-a562-20c1-de59" type="profile"/>
+        <infoLink id="d677-7b4e-0852-b7df" name="[3] 105mm FlaK 38 (Hipper)" hidden="false" targetId="be9e-f9f2-f8d2-1faf" type="profile"/>
+        <infoLink id="7ad9-b025-8b2d-2428" name="[2] 203mm SK C/34 Twin battery [ ]" hidden="false" targetId="d6b0-2d12-12e7-bcc4" type="profile"/>
+        <infoLink id="1d92-3617-c12f-7ca6" name="[3] 203mm SK C/34 Twin battery [ ]" hidden="false" targetId="3f14-8bf2-34fb-77a2" type="profile"/>
+        <infoLink id="cd8e-5ec2-2ff0-3115" name="[4] 203mm SK C/34 Twin battery [ ]" hidden="false" targetId="6cf5-6b37-c08c-73bd" type="profile"/>
+        <infoLink id="3104-14c4-36d1-2ded" name="[1] 203mm SK C/34 Twin battery [ ]" hidden="false" targetId="c4d7-fafc-092f-797a" type="profile"/>
+        <infoLink id="119b-0d9d-9482-38a6" name="[4] 105mm FlaK 38 (Hipper)" hidden="false" targetId="25d7-075f-39cf-0dee" type="profile"/>
+        <infoLink id="3195-b994-bdce-aad9" name="[7] 20mm FlaK 30 (Hipper)" hidden="false" targetId="c9cd-9aff-ad85-218c" type="profile"/>
+        <infoLink id="c816-e8c3-264e-3182" name="[1] 533mm G7a Torpedoes (3)" hidden="false" targetId="e126-b653-4b03-f74f" type="profile"/>
+        <infoLink id="df63-a08f-bdff-83f9" name="[2] 533mm G7a Torpedoes (3)" hidden="false" targetId="b75f-71e2-0286-0a66" type="profile"/>
+        <infoLink id="8e98-2713-974d-9ab4" name="[3] 533mm G7a Torpedoes (3)" hidden="false" targetId="e1f3-59f9-98ab-0542" type="profile"/>
+        <infoLink id="6327-a7c4-cc93-77e9" name="[4] 533mm G7a Torpedoes (3)" hidden="false" targetId="956e-43f7-1d25-2948" type="profile"/>
+        <infoLink id="198a-6984-9ff7-bb95" name="[5] 37mm SK C/30 (Hipper)" hidden="false" targetId="3909-3390-c214-9cc9" type="profile"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="63a2-669d-3aaf-76ee" name="Universal Refit Upgrades [CA]" hidden="false" collective="false" import="true" targetId="abec-4458-bbb0-5c2a" type="selectionEntryGroup"/>
+        <entryLink id="a706-7340-abc4-a9bf" name="Universal Utility Modules [CA]" hidden="false" collective="false" import="true" targetId="8f79-a94d-ae8e-e0b7" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="PC" typeId="ad49-076b-3854-f063" value="135.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="47c5-1dbf-8e16-ef26" name="&quot;Prinz Eugen&quot;" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e270-079f-dea6-3b82" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="869f-efbb-6074-98fb" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="0e42-e739-6bb9-2e4b" name="&apos;1-2 Armament" hidden="false" typeId="13f0-0ce8-9020-3ff3" typeName="(b) Armour Pen">
+          <characteristics>
+            <characteristic name="Direct Hit" typeId="4d33-6ed1-47d8-d62c">13-15</characteristic>
+            <characteristic name="Dev. Hit" typeId="aaef-8982-1722-9639">16-18</characteristic>
+            <characteristic name="Critical Hit" typeId="5fc4-80f8-9769-b93c">19+</characteristic>
+            <characteristic name="Damage Capacity" typeId="ac37-eb9c-68b1-c8c4">14</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="901e-d496-fbfd-1df3" name="&apos;3-5 Superstructure" hidden="false" typeId="13f0-0ce8-9020-3ff3" typeName="(b) Armour Pen">
+          <characteristics>
+            <characteristic name="Direct Hit" typeId="4d33-6ed1-47d8-d62c">11-13</characteristic>
+            <characteristic name="Dev. Hit" typeId="aaef-8982-1722-9639">14-16</characteristic>
+            <characteristic name="Critical Hit" typeId="5fc4-80f8-9769-b93c">17+(OP)</characteristic>
+            <characteristic name="Damage Capacity" typeId="ac37-eb9c-68b1-c8c4">13</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a684-4d74-91b1-9e5d" name="&apos;6-9 Deck" hidden="false" typeId="13f0-0ce8-9020-3ff3" typeName="(b) Armour Pen">
+          <characteristics>
+            <characteristic name="Direct Hit" typeId="4d33-6ed1-47d8-d62c">13-15
+</characteristic>
+            <characteristic name="Dev. Hit" typeId="aaef-8982-1722-9639">16-18
+</characteristic>
+            <characteristic name="Critical Hit" typeId="5fc4-80f8-9769-b93c">19+
+</characteristic>
+            <characteristic name="Damage Capacity" typeId="ac37-eb9c-68b1-c8c4">19
+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c746-41ee-8cf9-b7ac" name="10-12 Main Belt" hidden="false" typeId="13f0-0ce8-9020-3ff3" typeName="(b) Armour Pen">
+          <characteristics>
+            <characteristic name="Direct Hit" typeId="4d33-6ed1-47d8-d62c">13-15</characteristic>
+            <characteristic name="Dev. Hit" typeId="aaef-8982-1722-9639">16-18</characteristic>
+            <characteristic name="Critical Hit" typeId="5fc4-80f8-9769-b93c">19+</characteristic>
+            <characteristic name="Damage Capacity" typeId="ac37-eb9c-68b1-c8c4">17</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2a74-4882-64ab-03e7" name="[CA] Admiral Hipper-class Heavy Cruiser " hidden="false" targetId="0791-a562-20c1-de59" type="profile"/>
+        <infoLink id="840c-43ad-5164-ceca" name="[3] 105mm FlaK 38 (Hipper)" hidden="false" targetId="be9e-f9f2-f8d2-1faf" type="profile"/>
+        <infoLink id="6253-eacd-0520-a854" name="[2] 203mm SK C/34 Twin battery [ ]" hidden="false" targetId="d6b0-2d12-12e7-bcc4" type="profile"/>
+        <infoLink id="93d2-fc89-a3cd-2826" name="[3] 203mm SK C/34 Twin battery [ ]" hidden="false" targetId="3f14-8bf2-34fb-77a2" type="profile"/>
+        <infoLink id="7cf5-bd8f-01cc-d266" name="[4] 203mm SK C/34 Twin battery [ ]" hidden="false" targetId="6cf5-6b37-c08c-73bd" type="profile"/>
+        <infoLink id="e792-9aad-7203-a841" name="[1] 203mm SK C/34 Twin battery [ ]" hidden="false" targetId="c4d7-fafc-092f-797a" type="profile"/>
+        <infoLink id="1da9-d415-88b6-4347" name="[4] 105mm FlaK 38 (Hipper)" hidden="false" targetId="25d7-075f-39cf-0dee" type="profile"/>
+        <infoLink id="d8f9-7859-70a2-d50c" name="[7] 20mm FlaK 30 (Hipper)" hidden="false" targetId="c9cd-9aff-ad85-218c" type="profile"/>
+        <infoLink id="0b09-53be-2f4d-c114" name="[1] 533mm G7a Torpedoes (3)" hidden="false" targetId="e126-b653-4b03-f74f" type="profile"/>
+        <infoLink id="d0bc-f2e1-4a67-172a" name="[2] 533mm G7a Torpedoes (3)" hidden="false" targetId="b75f-71e2-0286-0a66" type="profile"/>
+        <infoLink id="225c-41d2-1c94-1d2d" name="[3] 533mm G7a Torpedoes (3)" hidden="false" targetId="e1f3-59f9-98ab-0542" type="profile"/>
+        <infoLink id="58d4-71e4-2257-9288" name="[4] 533mm G7a Torpedoes (3)" hidden="false" targetId="956e-43f7-1d25-2948" type="profile"/>
+        <infoLink id="534c-a3b3-1a72-f1b7" name="[5] 37mm SK C/30 (Hipper)" hidden="false" targetId="3909-3390-c214-9cc9" type="profile"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="8996-c7b3-dded-cf5f" name="Universal Refit Upgrades [CA]" hidden="false" collective="false" import="true" targetId="abec-4458-bbb0-5c2a" type="selectionEntryGroup"/>
+        <entryLink id="5006-60f4-d589-8717" name="Universal Utility Modules [CA]" hidden="false" collective="false" import="true" targetId="8f79-a94d-ae8e-e0b7" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="PC" typeId="ad49-076b-3854-f063" value="135.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ecd2-6b42-52e9-b5fe" name="&quot;Blucher&quot;" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e19-e25f-5d41-ef51" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef2b-37ba-1990-974e" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="6673-0b20-a269-90f6" name="&apos;1-2 Armament" hidden="false" typeId="13f0-0ce8-9020-3ff3" typeName="(b) Armour Pen">
+          <characteristics>
+            <characteristic name="Direct Hit" typeId="4d33-6ed1-47d8-d62c">13-15</characteristic>
+            <characteristic name="Dev. Hit" typeId="aaef-8982-1722-9639">16-18</characteristic>
+            <characteristic name="Critical Hit" typeId="5fc4-80f8-9769-b93c">19+</characteristic>
+            <characteristic name="Damage Capacity" typeId="ac37-eb9c-68b1-c8c4">14</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="aca7-1bfa-c7d4-6a98" name="&apos;3-5 Superstructure" hidden="false" typeId="13f0-0ce8-9020-3ff3" typeName="(b) Armour Pen">
+          <characteristics>
+            <characteristic name="Direct Hit" typeId="4d33-6ed1-47d8-d62c">11-13</characteristic>
+            <characteristic name="Dev. Hit" typeId="aaef-8982-1722-9639">14-16</characteristic>
+            <characteristic name="Critical Hit" typeId="5fc4-80f8-9769-b93c">17+(OP)</characteristic>
+            <characteristic name="Damage Capacity" typeId="ac37-eb9c-68b1-c8c4">13</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6e53-a049-c15a-e281" name="&apos;6-9 Deck" hidden="false" typeId="13f0-0ce8-9020-3ff3" typeName="(b) Armour Pen">
+          <characteristics>
+            <characteristic name="Direct Hit" typeId="4d33-6ed1-47d8-d62c">13-15
+</characteristic>
+            <characteristic name="Dev. Hit" typeId="aaef-8982-1722-9639">16-18
+</characteristic>
+            <characteristic name="Critical Hit" typeId="5fc4-80f8-9769-b93c">19+
+</characteristic>
+            <characteristic name="Damage Capacity" typeId="ac37-eb9c-68b1-c8c4">19
+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="94b1-8b83-b897-9574" name="10-12 Main Belt" hidden="false" typeId="13f0-0ce8-9020-3ff3" typeName="(b) Armour Pen">
+          <characteristics>
+            <characteristic name="Direct Hit" typeId="4d33-6ed1-47d8-d62c">13-15</characteristic>
+            <characteristic name="Dev. Hit" typeId="aaef-8982-1722-9639">16-18</characteristic>
+            <characteristic name="Critical Hit" typeId="5fc4-80f8-9769-b93c">19+</characteristic>
+            <characteristic name="Damage Capacity" typeId="ac37-eb9c-68b1-c8c4">17</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="eb2a-76db-6c85-db41" name="[CA] Admiral Hipper-class Heavy Cruiser " hidden="false" targetId="0791-a562-20c1-de59" type="profile"/>
+        <infoLink id="b099-b80d-68ca-b64c" name="[3] 105mm FlaK 38 (Hipper)" hidden="false" targetId="be9e-f9f2-f8d2-1faf" type="profile"/>
+        <infoLink id="4ad5-99ec-8cb4-29a7" name="[2] 203mm SK C/34 Twin battery [ ]" hidden="false" targetId="d6b0-2d12-12e7-bcc4" type="profile"/>
+        <infoLink id="e82b-ea9f-bda1-bd36" name="[3] 203mm SK C/34 Twin battery [ ]" hidden="false" targetId="3f14-8bf2-34fb-77a2" type="profile"/>
+        <infoLink id="0862-af24-5db4-aaac" name="[4] 203mm SK C/34 Twin battery [ ]" hidden="false" targetId="6cf5-6b37-c08c-73bd" type="profile"/>
+        <infoLink id="a6bb-2b0d-e864-2e6b" name="[1] 203mm SK C/34 Twin battery [ ]" hidden="false" targetId="c4d7-fafc-092f-797a" type="profile"/>
+        <infoLink id="ac98-95c9-8139-3da7" name="[4] 105mm FlaK 38 (Hipper)" hidden="false" targetId="25d7-075f-39cf-0dee" type="profile"/>
+        <infoLink id="912a-075f-07bc-3caa" name="[7] 20mm FlaK 30 (Hipper)" hidden="false" targetId="c9cd-9aff-ad85-218c" type="profile"/>
+        <infoLink id="79df-0c59-84d7-9e65" name="[1] 533mm G7a Torpedoes (3)" hidden="false" targetId="e126-b653-4b03-f74f" type="profile"/>
+        <infoLink id="b9ea-4f91-43ac-ce74" name="[2] 533mm G7a Torpedoes (3)" hidden="false" targetId="b75f-71e2-0286-0a66" type="profile"/>
+        <infoLink id="60d0-36f6-48b1-b1d3" name="[3] 533mm G7a Torpedoes (3)" hidden="false" targetId="e1f3-59f9-98ab-0542" type="profile"/>
+        <infoLink id="514d-ba71-e7b1-05f4" name="[4] 533mm G7a Torpedoes (3)" hidden="false" targetId="956e-43f7-1d25-2948" type="profile"/>
+        <infoLink id="8ecb-2031-2279-22e0" name="[5] 37mm SK C/30 (Hipper)" hidden="false" targetId="3909-3390-c214-9cc9" type="profile"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="88b5-5bdf-1110-28e9" name="Universal Refit Upgrades [CA]" hidden="false" collective="false" import="true" targetId="abec-4458-bbb0-5c2a" type="selectionEntryGroup"/>
+        <entryLink id="e451-34f6-8ee2-8663" name="Universal Utility Modules [CA]" hidden="false" collective="false" import="true" targetId="8f79-a94d-ae8e-e0b7" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="PC" typeId="ad49-076b-3854-f063" value="135.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e042-d5c8-ecef-c464" name="&quot;Graf Zeppelin&quot; Graf Zeppelin-class Aircraft Carrier" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0413-f016-cea1-9f0d" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="d78b-6d58-6b67-e075" name="&apos;1-2 Armament" hidden="false" typeId="13f0-0ce8-9020-3ff3" typeName="(b) Armour Pen">
+          <characteristics>
+            <characteristic name="Direct Hit" typeId="4d33-6ed1-47d8-d62c">13-15
+</characteristic>
+            <characteristic name="Dev. Hit" typeId="aaef-8982-1722-9639">16-18
+</characteristic>
+            <characteristic name="Critical Hit" typeId="5fc4-80f8-9769-b93c">19+
+</characteristic>
+            <characteristic name="Damage Capacity" typeId="ac37-eb9c-68b1-c8c4">14</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="02d6-2f06-8f08-6c42" name="&apos;3-5 Superstructure" hidden="false" typeId="13f0-0ce8-9020-3ff3" typeName="(b) Armour Pen">
+          <characteristics>
+            <characteristic name="Direct Hit" typeId="4d33-6ed1-47d8-d62c">11-13
+</characteristic>
+            <characteristic name="Dev. Hit" typeId="aaef-8982-1722-9639">14-16
+
+</characteristic>
+            <characteristic name="Critical Hit" typeId="5fc4-80f8-9769-b93c">17+(OP)
+</characteristic>
+            <characteristic name="Damage Capacity" typeId="ac37-eb9c-68b1-c8c4">13
+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3455-fbec-8e06-4412" name="&apos;6-9 Deck" hidden="false" typeId="13f0-0ce8-9020-3ff3" typeName="(b) Armour Pen">
+          <characteristics>
+            <characteristic name="Direct Hit" typeId="4d33-6ed1-47d8-d62c">13-15
+
+</characteristic>
+            <characteristic name="Dev. Hit" typeId="aaef-8982-1722-9639">16-18
+</characteristic>
+            <characteristic name="Critical Hit" typeId="5fc4-80f8-9769-b93c">19+
+</characteristic>
+            <characteristic name="Damage Capacity" typeId="ac37-eb9c-68b1-c8c4">19
+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1f7f-dda1-64a9-17f7" name="10-12 Main Belt" hidden="false" typeId="13f0-0ce8-9020-3ff3" typeName="(b) Armour Pen">
+          <characteristics>
+            <characteristic name="Direct Hit" typeId="4d33-6ed1-47d8-d62c">13-15</characteristic>
+            <characteristic name="Dev. Hit" typeId="aaef-8982-1722-9639">16-18</characteristic>
+            <characteristic name="Critical Hit" typeId="5fc4-80f8-9769-b93c">19+</characteristic>
+            <characteristic name="Damage Capacity" typeId="ac37-eb9c-68b1-c8c4">17</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="dbd7-fd4f-add8-192b" name="[CV] Graf Zeppelin-class Aircraft Carrier" hidden="false" targetId="aab8-c7a8-d8b1-c408" type="profile"/>
+        <infoLink id="ea0c-53a7-ebe2-09e2" name="Junkers Ju87 &quot;Stuka&quot;" hidden="false" targetId="addf-14b8-a818-7937" type="profile"/>
+        <infoLink id="4ab0-651e-17f8-c7d3" name="Messerschmitt Bf109" hidden="false" targetId="8f08-fc5e-7f98-eaad" type="profile"/>
+        <infoLink id="0153-a3f6-02e2-63d2" name="[1] 150mm SK C/25 (Zeppelin)" hidden="false" targetId="bfac-dee1-a046-94b8" type="profile"/>
+        <infoLink id="2d52-c4ca-ed7a-461f" name="[2] 150mm SK C/25 (Zeppelin)" hidden="false" targetId="4759-c6ac-117e-4051" type="profile"/>
+        <infoLink id="8aa6-cea2-0cd3-0669" name="[3] 105mm FlaK 38 (Zeppelin)" hidden="false" targetId="6487-ec04-9da8-3453" type="profile"/>
+        <infoLink id="57eb-74b2-bdb0-7722" name="[4] 105mm FlaK 38 (Zeppelin)" hidden="false" targetId="156a-0a28-a405-2a0b" type="profile"/>
+        <infoLink id="9564-42ae-3019-2478" name="[5] 37mm SK C/30 (Zeppelin)" hidden="false" targetId="1ab4-79a5-2453-6429" type="profile"/>
+        <infoLink id="cc36-ff08-6787-2f2f" name="[6] 37mm SK C/30 (Zeppelin)" hidden="false" targetId="ec19-a826-6ff2-2a2d" type="profile"/>
+        <infoLink id="554d-8070-8716-128d" name="[7] 20mm FlaK 30 (Zeppelin)" hidden="false" targetId="c126-9b28-02bf-2c8e" type="profile"/>
+        <infoLink id="fa08-b515-324a-7117" name="[8] 20mm FlaK 30 (Zeppelin)" hidden="false" targetId="8610-6ef5-e319-42e1" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2839-c4c3-3119-3e50" name="Germany - Kriegsmarine" hidden="false" targetId="c56a-dc30-18cc-f828" primary="false"/>
+        <categoryLink id="9982-d94f-e6dc-2269" name="[CV] Aircraft Carriers" hidden="false" targetId="5f22-9a0e-a3e1-d791" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="272c-0848-e894-6c9d" name="Universal Refit Upgrades [CV]" hidden="false" collective="false" import="true" targetId="98d5-d5e7-7daf-9e55" type="selectionEntryGroup"/>
+        <entryLink id="a2f1-f005-95f5-2183" name="Universal Utility Modules [CV]" hidden="false" collective="false" import="true" targetId="7dae-fcbc-a63a-10e6" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="PC" typeId="ad49-076b-3854-f063" value="244.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4917-7882-34f8-1a0c" name="&quot;Leipzig&quot;" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2643-2c81-f8dc-37f8" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fee-5cbf-ae83-bd04" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="71f3-f794-fc13-a422" name="[CL] Leipzig-class Light Cruiser" hidden="false" targetId="2c90-4797-77a0-6ed2" type="profile"/>
+        <infoLink id="2dbc-6014-ce1d-fad7" name="[CL]" hidden="false" targetId="17da-89fc-b5ed-087a" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="bb04-28b9-6d99-e527" name="Universal Refit Upgrades [CL]" hidden="false" collective="false" import="true" targetId="33dc-3bb7-70f1-8b80" type="selectionEntryGroup"/>
+        <entryLink id="8440-e15c-1b66-37cc" name="Universal Utility Modules [CL]" hidden="false" collective="false" import="true" targetId="86be-dabc-8632-2de9" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="PC" typeId="ad49-076b-3854-f063" value="99.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="b9a8-4299-cfac-9734" name="Commander Onboard" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8fb-0204-b51c-332a" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e745-a01e-da4a-f3f3" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="4ce5-0462-ef08-9ad7" name="Admiral Gunther Lutjens" hidden="false" collective="false" import="true" targetId="1930-d721-eea3-75a6" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="be25-e4e2-e0f5-f7d7" name="Admiral Hipper-class Heavy Cruiser" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58fe-0d8b-d2d8-9b1f" type="min"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="7aad-469f-94df-5469" name="&quot;Admiral Hipper&quot;" hidden="false" collective="false" import="true" targetId="2408-0152-c601-7aee" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="932c-0ad1-1b76-53f9" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="7dbb-85f6-da1a-b669" name="&quot;Prinz Eugen&quot;" hidden="false" collective="false" import="true" targetId="47c5-1dbf-8e16-ef26" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4260-6ef5-b36d-e5dd" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="b7b8-6681-634e-e638" name="&quot;Blucher&quot;" hidden="false" collective="false" import="true" targetId="ecd2-6b42-52e9-b5fe" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cd8b-2b65-abcd-fd8a" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedProfiles>
+    <profile id="5428-e81f-e364-1724" name="[3] 380mm SK C/34 Twin battery [ ]" hidden="false" typeId="1a35-701f-65d5-642a" typeName="(c1) Main Armaments">
+      <characteristics>
+        <characteristic name="Type" typeId="f5c3-fb03-0a2f-71f2">Turret (AFT)</characteristic>
+        <characteristic name="R" typeId="6795-efc7-5546-6cfa">36&quot;/42&quot;
+</characteristic>
+        <characteristic name="A" typeId="9f0f-bbce-15bf-fea6">2
+</characteristic>
+        <characteristic name="G" typeId="3e06-9963-399d-58d9">5+</characteristic>
+        <characteristic name="ARC" typeId="40f6-5ed9-4c7d-f4fd">A/S</characteristic>
+        <characteristic name="HE" typeId="ce41-7014-02c9-6aa8">10 (11+)</characteristic>
+        <characteristic name="AP" typeId="d5cb-211c-d60a-7b97">15</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bfac-dee1-a046-94b8" name="[1] 150mm SK C/25 (Zeppelin)" hidden="false" typeId="b6cd-8fe8-eb74-c7a1" typeName="(d) Secondary/AA Armaments">
+      <characteristics>
+        <characteristic name="Type" typeId="c050-d811-7821-5c2b">Secondary</characteristic>
+        <characteristic name="R" typeId="94f9-7e63-0b21-5c80">18&quot;/24&quot;</characteristic>
+        <characteristic name="A" typeId="652e-9328-331d-f084">8</characteristic>
+        <characteristic name="G" typeId="d140-aee7-4443-c168">6+</characteristic>
+        <characteristic name="ARC" typeId="95a5-b542-0326-de5c">S(SB)</characteristic>
+        <characteristic name="HE" typeId="7575-870c-c31b-477d">4 (9+)
+</characteristic>
+        <characteristic name="AP" typeId="aad4-3469-9ddf-3a99">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8f59-f6fa-664d-9950" name="[2] 150mm SK C/28 (Bismarck)" hidden="false" typeId="b6cd-8fe8-eb74-c7a1" typeName="(d) Secondary/AA Armaments">
+      <characteristics>
+        <characteristic name="Type" typeId="c050-d811-7821-5c2b">Secondary</characteristic>
+        <characteristic name="R" typeId="94f9-7e63-0b21-5c80">18&quot;/24&quot;</characteristic>
+        <characteristic name="A" typeId="652e-9328-331d-f084">6</characteristic>
+        <characteristic name="G" typeId="d140-aee7-4443-c168">6+</characteristic>
+        <characteristic name="ARC" typeId="95a5-b542-0326-de5c">S(P)</characteristic>
+        <characteristic name="HE" typeId="7575-870c-c31b-477d">4 (9+)
+</characteristic>
+        <characteristic name="AP" typeId="aad4-3469-9ddf-3a99">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a41e-cd8f-c9ec-f3d0" name="[3] 105mm FlaK 38 (Bismarck)" hidden="false" typeId="b6cd-8fe8-eb74-c7a1" typeName="(d) Secondary/AA Armaments">
+      <characteristics>
+        <characteristic name="Type" typeId="c050-d811-7821-5c2b">Dual</characteristic>
+        <characteristic name="R" typeId="94f9-7e63-0b21-5c80">18&quot;/24&quot; (9&quot;)</characteristic>
+        <characteristic name="A" typeId="652e-9328-331d-f084">8</characteristic>
+        <characteristic name="G" typeId="d140-aee7-4443-c168">6+(9+)</characteristic>
+        <characteristic name="ARC" typeId="95a5-b542-0326-de5c">S(SB)</characteristic>
+        <characteristic name="HE" typeId="7575-870c-c31b-477d">3(9+)</characteristic>
+        <characteristic name="AP" typeId="aad4-3469-9ddf-3a99">4</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2ded-6be7-848b-575a" name="[4] 105mm FlaK 38 (Bismarck)" hidden="false" typeId="b6cd-8fe8-eb74-c7a1" typeName="(d) Secondary/AA Armaments">
+      <characteristics>
+        <characteristic name="Type" typeId="c050-d811-7821-5c2b">Dual</characteristic>
+        <characteristic name="R" typeId="94f9-7e63-0b21-5c80">18&quot;/24&quot; (9&quot;)</characteristic>
+        <characteristic name="A" typeId="652e-9328-331d-f084">8</characteristic>
+        <characteristic name="G" typeId="d140-aee7-4443-c168">6+(9+)</characteristic>
+        <characteristic name="ARC" typeId="95a5-b542-0326-de5c">S(P)</characteristic>
+        <characteristic name="HE" typeId="7575-870c-c31b-477d">3(9+)</characteristic>
+        <characteristic name="AP" typeId="aad4-3469-9ddf-3a99">4</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8a93-1651-512c-b29b" name="[5] 37mm SK C/30 (Bismarck)" hidden="false" typeId="b6cd-8fe8-eb74-c7a1" typeName="(d) Secondary/AA Armaments">
+      <characteristics>
+        <characteristic name="Type" typeId="c050-d811-7821-5c2b">AA</characteristic>
+        <characteristic name="R" typeId="94f9-7e63-0b21-5c80">6&quot;</characteristic>
+        <characteristic name="A" typeId="652e-9328-331d-f084">3</characteristic>
+        <characteristic name="G" typeId="d140-aee7-4443-c168">9+</characteristic>
+        <characteristic name="ARC" typeId="95a5-b542-0326-de5c">360</characteristic>
+        <characteristic name="HE" typeId="7575-870c-c31b-477d">-</characteristic>
+        <characteristic name="AP" typeId="aad4-3469-9ddf-3a99">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5068-c623-af15-845d" name="[6] 37mm SK C/30 (Bismarck)" hidden="false" typeId="b6cd-8fe8-eb74-c7a1" typeName="(d) Secondary/AA Armaments">
+      <characteristics>
+        <characteristic name="Type" typeId="c050-d811-7821-5c2b">AA</characteristic>
+        <characteristic name="R" typeId="94f9-7e63-0b21-5c80">6&quot;</characteristic>
+        <characteristic name="A" typeId="652e-9328-331d-f084">3</characteristic>
+        <characteristic name="G" typeId="d140-aee7-4443-c168">9+</characteristic>
+        <characteristic name="ARC" typeId="95a5-b542-0326-de5c">360</characteristic>
+        <characteristic name="HE" typeId="7575-870c-c31b-477d">-</characteristic>
+        <characteristic name="AP" typeId="aad4-3469-9ddf-3a99">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="de9d-4444-1295-e4c7" name="[7] 20mm FlaK 30 (Bismarck)" hidden="false" typeId="b6cd-8fe8-eb74-c7a1" typeName="(d) Secondary/AA Armaments">
+      <characteristics>
+        <characteristic name="Type" typeId="c050-d811-7821-5c2b">AA</characteristic>
+        <characteristic name="R" typeId="94f9-7e63-0b21-5c80">2&quot;</characteristic>
+        <characteristic name="A" typeId="652e-9328-331d-f084">5</characteristic>
+        <characteristic name="G" typeId="d140-aee7-4443-c168">9+</characteristic>
+        <characteristic name="ARC" typeId="95a5-b542-0326-de5c">360</characteristic>
+        <characteristic name="HE" typeId="7575-870c-c31b-477d">-</characteristic>
+        <characteristic name="AP" typeId="aad4-3469-9ddf-3a99">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c4d7-fafc-092f-797a" name="[1] 203mm SK C/34 Twin battery [ ]" hidden="false" typeId="1a35-701f-65d5-642a" typeName="(c1) Main Armaments">
+      <characteristics>
+        <characteristic name="Type" typeId="f5c3-fb03-0a2f-71f2">Turret (FWD)</characteristic>
+        <characteristic name="R" typeId="6795-efc7-5546-6cfa">28&quot;/34&quot;
+</characteristic>
+        <characteristic name="A" typeId="9f0f-bbce-15bf-fea6">2
+</characteristic>
+        <characteristic name="G" typeId="3e06-9963-399d-58d9">5+</characteristic>
+        <characteristic name="ARC" typeId="40f6-5ed9-4c7d-f4fd">F/S</characteristic>
+        <characteristic name="HE" typeId="ce41-7014-02c9-6aa8">5 (11+)</characteristic>
+        <characteristic name="AP" typeId="d5cb-211c-d60a-7b97">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bf90-7b25-6d3f-0835" name="[4] 380mm SK C/34 Twin battery [ ]" hidden="false" typeId="1a35-701f-65d5-642a" typeName="(c1) Main Armaments">
+      <characteristics>
+        <characteristic name="Type" typeId="f5c3-fb03-0a2f-71f2">Turret (AFT)</characteristic>
+        <characteristic name="R" typeId="6795-efc7-5546-6cfa">36&quot;/42&quot;
+</characteristic>
+        <characteristic name="A" typeId="9f0f-bbce-15bf-fea6">2
+</characteristic>
+        <characteristic name="G" typeId="3e06-9963-399d-58d9">5+</characteristic>
+        <characteristic name="ARC" typeId="40f6-5ed9-4c7d-f4fd">A/S</characteristic>
+        <characteristic name="HE" typeId="ce41-7014-02c9-6aa8">10 (11+)</characteristic>
+        <characteristic name="AP" typeId="d5cb-211c-d60a-7b97">15</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0791-a562-20c1-de59" name="[CA] Admiral Hipper-class Heavy Cruiser " hidden="false" typeId="5fa1-6d0c-b6e9-7e36" typeName="(a) Ship">
+      <characteristics>
+        <characteristic name="Nation" typeId="a7f3-e115-062b-e15a">GER</characteristic>
+        <characteristic name="Class" typeId="25ef-9079-d262-4746">CA</characteristic>
+        <characteristic name="FA" typeId="724d-0b26-32ee-e603">1</characteristic>
+        <characteristic name="CD" typeId="ab3f-0a8d-4f21-c5bb">4</characteristic>
+        <characteristic name="SIL" typeId="1ae8-a2f0-4dfa-5382">B-8&quot;/F-14&quot;</characteristic>
+        <characteristic name="COM-V" typeId="09b0-ee2f-cafe-7fe8">6+</characteristic>
+        <characteristic name="COM-R" typeId="3bf1-d802-e7b1-4c67">-</characteristic>
+        <characteristic name="Refit Upgrades" typeId="ea89-3453-52b1-1cfe">1</characteristic>
+        <characteristic name="Utility Modules" typeId="ccef-48bf-8df1-b0b6">2</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a191-0a4f-26fa-ae63" name="Admiral Gunther Lutjens" hidden="false" typeId="fcc0-fc4d-d5f5-2eda" typeName="Commander">
+      <characteristics>
+        <characteristic name="Nation" typeId="ce01-2ab6-85ea-1ea2">Germany</characteristic>
+        <characteristic name="FA" typeId="ffc3-6901-22d1-e7ec">1</characteristic>
+        <characteristic name="CS" typeId="7c58-4a4d-6491-a3dd">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d4ec-b7ee-a6d2-a6e4" name="Ability (Lutjens)" hidden="false" typeId="60dd-17a9-e88a-73c8" typeName="Commander Ability">
+      <characteristics>
+        <characteristic name="Ability" typeId="f3e4-ea5c-923a-ba97">Master Tactician - When this Commanders ship issues an order, one ship within COM-R of this Commanders ship may automatically pass the Command Check to receive the order.
+</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2be9-7085-b252-d0a0" name="Tactical Bonus (Lutjens)" hidden="false" typeId="03d1-a0e9-b170-00a4" typeName="Commander Bonus">
+      <characteristics>
+        <characteristic name="Tactical Bonus" typeId="1b5c-c7bd-5c14-d18b">Ships within this Commanders fleet may add a +1 bonus modifer to all Command Checks.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="57d9-9a67-16f0-4af9" name="Fleet Restrictions (Lutjens)" hidden="false" typeId="c56f-3721-6fb9-d86e" typeName="Commander Restriction">
+      <characteristics>
+        <characteristic name="Restrictions" typeId="6578-1731-2cad-ceeb">Must include one or more ships with the COM trait</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="59e4-04cd-ee46-40dd" name="[2] 380mm SK C/34 Twin battery [ ]" hidden="false" typeId="1a35-701f-65d5-642a" typeName="(c1) Main Armaments">
+      <characteristics>
+        <characteristic name="Type" typeId="f5c3-fb03-0a2f-71f2">Turret (FWD)</characteristic>
+        <characteristic name="R" typeId="6795-efc7-5546-6cfa">36&quot;/42&quot;
+</characteristic>
+        <characteristic name="A" typeId="9f0f-bbce-15bf-fea6">2
+</characteristic>
+        <characteristic name="G" typeId="3e06-9963-399d-58d9">5+</characteristic>
+        <characteristic name="ARC" typeId="40f6-5ed9-4c7d-f4fd">F/S</characteristic>
+        <characteristic name="HE" typeId="ce41-7014-02c9-6aa8">10 (11+)</characteristic>
+        <characteristic name="AP" typeId="d5cb-211c-d60a-7b97">15</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="aab8-c7a8-d8b1-c408" name="[CV] Graf Zeppelin-class Aircraft Carrier" hidden="false" typeId="be9d-f0c8-9e66-769a" typeName="(a) CV">
+      <characteristics>
+        <characteristic name="Nation" typeId="c342-81e9-0d71-d7e9">GER</characteristic>
+        <characteristic name="Class" typeId="66f8-1199-e461-d099">CV</characteristic>
+        <characteristic name="FA" typeId="c87c-72d2-fb43-2fcc">1</characteristic>
+        <characteristic name="CD" typeId="34be-2821-0f8d-ef62">6</characteristic>
+        <characteristic name="SIL" typeId="b3a4-256d-1539-3624">B-10&quot;/F-16&quot;</characteristic>
+        <characteristic name="COM-V" typeId="1a73-96a1-ce90-86d3">6+</characteristic>
+        <characteristic name="COM-R" typeId="ed0b-eba6-693a-a6b4">-</characteristic>
+        <characteristic name="Refit Upgrades" typeId="1f92-9b34-0fc0-3f6f">2</characteristic>
+        <characteristic name="Utility Modules" typeId="0ac6-be54-3dad-3b07">3</characteristic>
+        <characteristic name="Launch" typeId="7bfc-f75c-dade-77e6">3</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="712e-6b51-b25e-a134" name="[1] 380mm SK C/34 Twin battery [ ]" hidden="false" typeId="1a35-701f-65d5-642a" typeName="(c1) Main Armaments">
+      <characteristics>
+        <characteristic name="Type" typeId="f5c3-fb03-0a2f-71f2">Turret (FWD)</characteristic>
+        <characteristic name="R" typeId="6795-efc7-5546-6cfa">36&quot;/42&quot;
+</characteristic>
+        <characteristic name="A" typeId="9f0f-bbce-15bf-fea6">2
+</characteristic>
+        <characteristic name="G" typeId="3e06-9963-399d-58d9">5+</characteristic>
+        <characteristic name="ARC" typeId="40f6-5ed9-4c7d-f4fd">F/S</characteristic>
+        <characteristic name="HE" typeId="ce41-7014-02c9-6aa8">10 (11+)</characteristic>
+        <characteristic name="AP" typeId="d5cb-211c-d60a-7b97">15</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d6b0-2d12-12e7-bcc4" name="[2] 203mm SK C/34 Twin battery [ ]" hidden="false" typeId="1a35-701f-65d5-642a" typeName="(c1) Main Armaments">
+      <characteristics>
+        <characteristic name="Type" typeId="f5c3-fb03-0a2f-71f2">Turret (FWD)</characteristic>
+        <characteristic name="R" typeId="6795-efc7-5546-6cfa">28&quot;/34&quot;
+</characteristic>
+        <characteristic name="A" typeId="9f0f-bbce-15bf-fea6">2
+</characteristic>
+        <characteristic name="G" typeId="3e06-9963-399d-58d9">5+</characteristic>
+        <characteristic name="ARC" typeId="40f6-5ed9-4c7d-f4fd">F/S</characteristic>
+        <characteristic name="HE" typeId="ce41-7014-02c9-6aa8">5 (11+)</characteristic>
+        <characteristic name="AP" typeId="d5cb-211c-d60a-7b97">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3f14-8bf2-34fb-77a2" name="[3] 203mm SK C/34 Twin battery [ ]" hidden="false" typeId="1a35-701f-65d5-642a" typeName="(c1) Main Armaments">
+      <characteristics>
+        <characteristic name="Type" typeId="f5c3-fb03-0a2f-71f2">Turret (FWD)</characteristic>
+        <characteristic name="R" typeId="6795-efc7-5546-6cfa">28&quot;/34&quot;
+</characteristic>
+        <characteristic name="A" typeId="9f0f-bbce-15bf-fea6">2
+</characteristic>
+        <characteristic name="G" typeId="3e06-9963-399d-58d9">5+</characteristic>
+        <characteristic name="ARC" typeId="40f6-5ed9-4c7d-f4fd">A/S</characteristic>
+        <characteristic name="HE" typeId="ce41-7014-02c9-6aa8">5 (11+)</characteristic>
+        <characteristic name="AP" typeId="d5cb-211c-d60a-7b97">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6cf5-6b37-c08c-73bd" name="[4] 203mm SK C/34 Twin battery [ ]" hidden="false" typeId="1a35-701f-65d5-642a" typeName="(c1) Main Armaments">
+      <characteristics>
+        <characteristic name="Type" typeId="f5c3-fb03-0a2f-71f2">Turret (FWD)</characteristic>
+        <characteristic name="R" typeId="6795-efc7-5546-6cfa">28&quot;/34&quot;
+</characteristic>
+        <characteristic name="A" typeId="9f0f-bbce-15bf-fea6">2
+</characteristic>
+        <characteristic name="G" typeId="3e06-9963-399d-58d9">5+</characteristic>
+        <characteristic name="ARC" typeId="40f6-5ed9-4c7d-f4fd">A/S</characteristic>
+        <characteristic name="HE" typeId="ce41-7014-02c9-6aa8">5 (11+)</characteristic>
+        <characteristic name="AP" typeId="d5cb-211c-d60a-7b97">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e126-b653-4b03-f74f" name="[1] 533mm G7a Torpedoes (3)" hidden="false" typeId="8d67-784a-e58e-77a2" typeName="(e) Auxiliary Armaments">
+      <characteristics>
+        <characteristic name="Type" typeId="3933-e0b0-5831-4140">Torp</characteristic>
+        <characteristic name="R" typeId="b38a-f942-460f-6101">8&quot;</characteristic>
+        <characteristic name="A" typeId="7315-31bb-77ad-327f">3</characteristic>
+        <characteristic name="G" typeId="dad6-8e83-6e4b-f595">T</characteristic>
+        <characteristic name="ARC" typeId="69a7-98ba-afab-f1f9">S(SB)</characteristic>
+        <characteristic name="AP" typeId="3052-3d78-8920-54ac">14</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b75f-71e2-0286-0a66" name="[2] 533mm G7a Torpedoes (3)" hidden="false" typeId="8d67-784a-e58e-77a2" typeName="(e) Auxiliary Armaments">
+      <characteristics>
+        <characteristic name="Type" typeId="3933-e0b0-5831-4140">Torp</characteristic>
+        <characteristic name="R" typeId="b38a-f942-460f-6101">8&quot;</characteristic>
+        <characteristic name="A" typeId="7315-31bb-77ad-327f">3</characteristic>
+        <characteristic name="G" typeId="dad6-8e83-6e4b-f595">T</characteristic>
+        <characteristic name="ARC" typeId="69a7-98ba-afab-f1f9">S(SB)</characteristic>
+        <characteristic name="AP" typeId="3052-3d78-8920-54ac">14</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e1f3-59f9-98ab-0542" name="[3] 533mm G7a Torpedoes (3)" hidden="false" typeId="8d67-784a-e58e-77a2" typeName="(e) Auxiliary Armaments">
+      <characteristics>
+        <characteristic name="Type" typeId="3933-e0b0-5831-4140">Torp</characteristic>
+        <characteristic name="R" typeId="b38a-f942-460f-6101">8&quot;</characteristic>
+        <characteristic name="A" typeId="7315-31bb-77ad-327f">3</characteristic>
+        <characteristic name="G" typeId="dad6-8e83-6e4b-f595">T</characteristic>
+        <characteristic name="ARC" typeId="69a7-98ba-afab-f1f9">S(P)</characteristic>
+        <characteristic name="AP" typeId="3052-3d78-8920-54ac">14</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="956e-43f7-1d25-2948" name="[4] 533mm G7a Torpedoes (3)" hidden="false" typeId="8d67-784a-e58e-77a2" typeName="(e) Auxiliary Armaments">
+      <characteristics>
+        <characteristic name="Type" typeId="3933-e0b0-5831-4140">Torp</characteristic>
+        <characteristic name="R" typeId="b38a-f942-460f-6101">8&quot;</characteristic>
+        <characteristic name="A" typeId="7315-31bb-77ad-327f">3</characteristic>
+        <characteristic name="G" typeId="dad6-8e83-6e4b-f595">T</characteristic>
+        <characteristic name="ARC" typeId="69a7-98ba-afab-f1f9">S(P)</characteristic>
+        <characteristic name="AP" typeId="3052-3d78-8920-54ac">14</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="57e7-cbef-8966-2ce6" name="[BB] Bismarck-Class Battleship" hidden="false" typeId="5fa1-6d0c-b6e9-7e36" typeName="(a) Ship">
+      <characteristics>
+        <characteristic name="Nation" typeId="a7f3-e115-062b-e15a">GER</characteristic>
+        <characteristic name="Class" typeId="25ef-9079-d262-4746">BB</characteristic>
+        <characteristic name="FA" typeId="724d-0b26-32ee-e603">1</characteristic>
+        <characteristic name="CD" typeId="ab3f-0a8d-4f21-c5bb">6</characteristic>
+        <characteristic name="SIL" typeId="1ae8-a2f0-4dfa-5382">B-12&quot;/F-18&quot;</characteristic>
+        <characteristic name="COM-V" typeId="09b0-ee2f-cafe-7fe8">4+</characteristic>
+        <characteristic name="COM-R" typeId="3bf1-d802-e7b1-4c67">12&quot;</characteristic>
+        <characteristic name="Refit Upgrades" typeId="ea89-3453-52b1-1cfe">2</characteristic>
+        <characteristic name="Utility Modules" typeId="ccef-48bf-8df1-b0b6">2</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8f08-fc5e-7f98-eaad" name="Messerschmitt Bf109" hidden="false" typeId="4ed7-6cd7-1524-764d" typeName="(c2) Aicraft Squadrons">
+      <characteristics>
+        <characteristic name="Sq/A" typeId="23de-4b44-c0df-8a23">4</characteristic>
+        <characteristic name="Type" typeId="e762-319a-0fc0-d553">Fighter</characteristic>
+        <characteristic name="R" typeId="408f-26a9-3d95-3a26">24&quot;</characteristic>
+        <characteristic name="G" typeId="c0bb-f04e-7710-735c">8+</characteristic>
+        <characteristic name="ARC" typeId="3d23-4a25-d919-9e38">F</characteristic>
+        <characteristic name="HE" typeId="d498-1494-1a64-0142">-</characteristic>
+        <characteristic name="AP" typeId="72dc-0baf-0fef-2977">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="addf-14b8-a818-7937" name="Junkers Ju87 &quot;Stuka&quot;" hidden="false" typeId="4ed7-6cd7-1524-764d" typeName="(c2) Aicraft Squadrons">
+      <characteristics>
+        <characteristic name="Sq/A" typeId="23de-4b44-c0df-8a23">10</characteristic>
+        <characteristic name="Type" typeId="e762-319a-0fc0-d553">Dive Bomber</characteristic>
+        <characteristic name="R" typeId="408f-26a9-3d95-3a26">18&quot;</characteristic>
+        <characteristic name="G" typeId="c0bb-f04e-7710-735c">6+</characteristic>
+        <characteristic name="ARC" typeId="3d23-4a25-d919-9e38">F</characteristic>
+        <characteristic name="HE" typeId="d498-1494-1a64-0142">8(6+)</characteristic>
+        <characteristic name="AP" typeId="72dc-0baf-0fef-2977">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="274f-fdfe-bad2-3862" name="[1] 150mm SK C/28 (Bismarck)" hidden="false" typeId="b6cd-8fe8-eb74-c7a1" typeName="(d) Secondary/AA Armaments">
+      <characteristics>
+        <characteristic name="Type" typeId="c050-d811-7821-5c2b">Secondary</characteristic>
+        <characteristic name="R" typeId="94f9-7e63-0b21-5c80">18&quot;/24&quot;</characteristic>
+        <characteristic name="A" typeId="652e-9328-331d-f084">6</characteristic>
+        <characteristic name="G" typeId="d140-aee7-4443-c168">6+</characteristic>
+        <characteristic name="ARC" typeId="95a5-b542-0326-de5c">S(SB)</characteristic>
+        <characteristic name="HE" typeId="7575-870c-c31b-477d">4 (9+)
+</characteristic>
+        <characteristic name="AP" typeId="aad4-3469-9ddf-3a99">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4759-c6ac-117e-4051" name="[2] 150mm SK C/25 (Zeppelin)" hidden="false" typeId="b6cd-8fe8-eb74-c7a1" typeName="(d) Secondary/AA Armaments">
+      <characteristics>
+        <characteristic name="Type" typeId="c050-d811-7821-5c2b">Secondary</characteristic>
+        <characteristic name="R" typeId="94f9-7e63-0b21-5c80">18&quot;/24&quot;</characteristic>
+        <characteristic name="A" typeId="652e-9328-331d-f084">8</characteristic>
+        <characteristic name="G" typeId="d140-aee7-4443-c168">6+</characteristic>
+        <characteristic name="ARC" typeId="95a5-b542-0326-de5c">S(P)</characteristic>
+        <characteristic name="HE" typeId="7575-870c-c31b-477d">4 (9+)
+</characteristic>
+        <characteristic name="AP" typeId="aad4-3469-9ddf-3a99">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="be9e-f9f2-f8d2-1faf" name="[3] 105mm FlaK 38 (Hipper)" hidden="false" typeId="b6cd-8fe8-eb74-c7a1" typeName="(d) Secondary/AA Armaments">
+      <characteristics>
+        <characteristic name="Type" typeId="c050-d811-7821-5c2b">Dual</characteristic>
+        <characteristic name="R" typeId="94f9-7e63-0b21-5c80">18&quot;/24&quot; (9&quot;)</characteristic>
+        <characteristic name="A" typeId="652e-9328-331d-f084">6</characteristic>
+        <characteristic name="G" typeId="d140-aee7-4443-c168">6+(9+)</characteristic>
+        <characteristic name="ARC" typeId="95a5-b542-0326-de5c">S(SB)</characteristic>
+        <characteristic name="HE" typeId="7575-870c-c31b-477d">3(9+)</characteristic>
+        <characteristic name="AP" typeId="aad4-3469-9ddf-3a99">4</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="25d7-075f-39cf-0dee" name="[4] 105mm FlaK 38 (Hipper)" hidden="false" typeId="b6cd-8fe8-eb74-c7a1" typeName="(d) Secondary/AA Armaments">
+      <characteristics>
+        <characteristic name="Type" typeId="c050-d811-7821-5c2b">Dual</characteristic>
+        <characteristic name="R" typeId="94f9-7e63-0b21-5c80">18&quot;/24&quot; (9&quot;)</characteristic>
+        <characteristic name="A" typeId="652e-9328-331d-f084">6</characteristic>
+        <characteristic name="G" typeId="d140-aee7-4443-c168">6+(9+)</characteristic>
+        <characteristic name="ARC" typeId="95a5-b542-0326-de5c">S(P)</characteristic>
+        <characteristic name="HE" typeId="7575-870c-c31b-477d">3(9+)</characteristic>
+        <characteristic name="AP" typeId="aad4-3469-9ddf-3a99">4</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3909-3390-c214-9cc9" name="[5] 37mm SK C/30 (Hipper)" hidden="false" typeId="b6cd-8fe8-eb74-c7a1" typeName="(d) Secondary/AA Armaments">
+      <characteristics>
+        <characteristic name="Type" typeId="c050-d811-7821-5c2b">AA</characteristic>
+        <characteristic name="R" typeId="94f9-7e63-0b21-5c80">6&quot;</characteristic>
+        <characteristic name="A" typeId="652e-9328-331d-f084">4</characteristic>
+        <characteristic name="G" typeId="d140-aee7-4443-c168">9+</characteristic>
+        <characteristic name="ARC" typeId="95a5-b542-0326-de5c">360</characteristic>
+        <characteristic name="HE" typeId="7575-870c-c31b-477d">-</characteristic>
+        <characteristic name="AP" typeId="aad4-3469-9ddf-3a99">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c9cd-9aff-ad85-218c" name="[7] 20mm FlaK 30 (Hipper)" hidden="false" typeId="b6cd-8fe8-eb74-c7a1" typeName="(d) Secondary/AA Armaments">
+      <characteristics>
+        <characteristic name="Type" typeId="c050-d811-7821-5c2b">AA</characteristic>
+        <characteristic name="R" typeId="94f9-7e63-0b21-5c80">2&quot;</characteristic>
+        <characteristic name="A" typeId="652e-9328-331d-f084">3</characteristic>
+        <characteristic name="G" typeId="d140-aee7-4443-c168">9+</characteristic>
+        <characteristic name="ARC" typeId="95a5-b542-0326-de5c">360</characteristic>
+        <characteristic name="HE" typeId="7575-870c-c31b-477d">-</characteristic>
+        <characteristic name="AP" typeId="aad4-3469-9ddf-3a99">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6487-ec04-9da8-3453" name="[3] 105mm FlaK 38 (Zeppelin)" hidden="false" typeId="b6cd-8fe8-eb74-c7a1" typeName="(d) Secondary/AA Armaments">
+      <characteristics>
+        <characteristic name="Type" typeId="c050-d811-7821-5c2b">Dual</characteristic>
+        <characteristic name="R" typeId="94f9-7e63-0b21-5c80">18&quot;/24&quot; (9&quot;)</characteristic>
+        <characteristic name="A" typeId="652e-9328-331d-f084">6</characteristic>
+        <characteristic name="G" typeId="d140-aee7-4443-c168">6+(9+)</characteristic>
+        <characteristic name="ARC" typeId="95a5-b542-0326-de5c">S(SB)</characteristic>
+        <characteristic name="HE" typeId="7575-870c-c31b-477d">3(9+)</characteristic>
+        <characteristic name="AP" typeId="aad4-3469-9ddf-3a99">4</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="156a-0a28-a405-2a0b" name="[4] 105mm FlaK 38 (Zeppelin)" hidden="false" typeId="b6cd-8fe8-eb74-c7a1" typeName="(d) Secondary/AA Armaments">
+      <characteristics>
+        <characteristic name="Type" typeId="c050-d811-7821-5c2b">Dual</characteristic>
+        <characteristic name="R" typeId="94f9-7e63-0b21-5c80">18&quot;/24&quot; (9&quot;)</characteristic>
+        <characteristic name="A" typeId="652e-9328-331d-f084">6</characteristic>
+        <characteristic name="G" typeId="d140-aee7-4443-c168">6+(9+)</characteristic>
+        <characteristic name="ARC" typeId="95a5-b542-0326-de5c">S(P)</characteristic>
+        <characteristic name="HE" typeId="7575-870c-c31b-477d">3(9+)</characteristic>
+        <characteristic name="AP" typeId="aad4-3469-9ddf-3a99">4</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1ab4-79a5-2453-6429" name="[5] 37mm SK C/30 (Zeppelin)" hidden="false" typeId="b6cd-8fe8-eb74-c7a1" typeName="(d) Secondary/AA Armaments">
+      <characteristics>
+        <characteristic name="Type" typeId="c050-d811-7821-5c2b">AA</characteristic>
+        <characteristic name="R" typeId="94f9-7e63-0b21-5c80">6&quot;</characteristic>
+        <characteristic name="A" typeId="652e-9328-331d-f084">3</characteristic>
+        <characteristic name="G" typeId="d140-aee7-4443-c168">9+</characteristic>
+        <characteristic name="ARC" typeId="95a5-b542-0326-de5c">360</characteristic>
+        <characteristic name="HE" typeId="7575-870c-c31b-477d">-</characteristic>
+        <characteristic name="AP" typeId="aad4-3469-9ddf-3a99">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ec19-a826-6ff2-2a2d" name="[6] 37mm SK C/30 (Zeppelin)" hidden="false" typeId="b6cd-8fe8-eb74-c7a1" typeName="(d) Secondary/AA Armaments">
+      <characteristics>
+        <characteristic name="Type" typeId="c050-d811-7821-5c2b">AA</characteristic>
+        <characteristic name="R" typeId="94f9-7e63-0b21-5c80">6&quot;</characteristic>
+        <characteristic name="A" typeId="652e-9328-331d-f084">3</characteristic>
+        <characteristic name="G" typeId="d140-aee7-4443-c168">9+</characteristic>
+        <characteristic name="ARC" typeId="95a5-b542-0326-de5c">360</characteristic>
+        <characteristic name="HE" typeId="7575-870c-c31b-477d">-</characteristic>
+        <characteristic name="AP" typeId="aad4-3469-9ddf-3a99">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="c126-9b28-02bf-2c8e" name="[7] 20mm FlaK 30 (Zeppelin)" hidden="false" typeId="b6cd-8fe8-eb74-c7a1" typeName="(d) Secondary/AA Armaments">
+      <characteristics>
+        <characteristic name="Type" typeId="c050-d811-7821-5c2b">AA</characteristic>
+        <characteristic name="R" typeId="94f9-7e63-0b21-5c80">2&quot;</characteristic>
+        <characteristic name="A" typeId="652e-9328-331d-f084">4</characteristic>
+        <characteristic name="G" typeId="d140-aee7-4443-c168">9+</characteristic>
+        <characteristic name="ARC" typeId="95a5-b542-0326-de5c">360</characteristic>
+        <characteristic name="HE" typeId="7575-870c-c31b-477d">-</characteristic>
+        <characteristic name="AP" typeId="aad4-3469-9ddf-3a99">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8610-6ef5-e319-42e1" name="[8] 20mm FlaK 30 (Zeppelin)" hidden="false" typeId="b6cd-8fe8-eb74-c7a1" typeName="(d) Secondary/AA Armaments">
+      <characteristics>
+        <characteristic name="Type" typeId="c050-d811-7821-5c2b">AA</characteristic>
+        <characteristic name="R" typeId="94f9-7e63-0b21-5c80">2&quot;</characteristic>
+        <characteristic name="A" typeId="652e-9328-331d-f084">4</characteristic>
+        <characteristic name="G" typeId="d140-aee7-4443-c168">9+</characteristic>
+        <characteristic name="ARC" typeId="95a5-b542-0326-de5c">360</characteristic>
+        <characteristic name="HE" typeId="7575-870c-c31b-477d">-</characteristic>
+        <characteristic name="AP" typeId="aad4-3469-9ddf-3a99">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2c90-4797-77a0-6ed2" name="[CL] Leipzig-class Light Cruiser" hidden="false" typeId="5fa1-6d0c-b6e9-7e36" typeName="(a) Ship">
+      <characteristics>
+        <characteristic name="Nation" typeId="a7f3-e115-062b-e15a">GER</characteristic>
+        <characteristic name="Class" typeId="25ef-9079-d262-4746">CL</characteristic>
+        <characteristic name="FA" typeId="724d-0b26-32ee-e603">2</characteristic>
+        <characteristic name="CD" typeId="ab3f-0a8d-4f21-c5bb">4</characteristic>
+        <characteristic name="SIL" typeId="1ae8-a2f0-4dfa-5382">B-6&quot;/F-12&quot;</characteristic>
+        <characteristic name="COM-V" typeId="09b0-ee2f-cafe-7fe8">6+</characteristic>
+        <characteristic name="COM-R" typeId="3bf1-d802-e7b1-4c67">-</characteristic>
+        <characteristic name="Refit Upgrades" typeId="ea89-3453-52b1-1cfe">1</characteristic>
+        <characteristic name="Utility Modules" typeId="ccef-48bf-8df1-b0b6">3</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
