@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="d1e4-40b9-76f0-fb6e" name="UK - Royal Navy" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="4728-e1b0-9a4c-5ecd" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
-    <entryLink id="d799-411f-c0b6-92e1" name="Bismarck, Bismarck-class Battleship [COM]" hidden="false" collective="false" import="true" targetId="aaef-4fe3-6fae-8091" type="selectionEntry"/>
+    <entryLink id="d799-411f-c0b6-92e1" name="King George-V-class Battleship [COM]" hidden="false" collective="false" import="true" targetId="d1ff-93af-d9fc-2467" type="selectionEntry"/>
+    <entryLink id="c41b-7526-d4d5-763f" name="&quot;HMS Hood&quot; Admiral-Class Battlecruiser [COM]" hidden="false" collective="false" import="true" targetId="526c-cfe6-91e0-970d" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="aaef-4fe3-6fae-8091" name="Prince of Wales, King George V-class Battleship [COM]" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="aaef-4fe3-6fae-8091" name="&quot;HMS Prince of Wales&quot; [COM]" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e291-9234-7cd9-e11f" type="max"/>
       </constraints>
@@ -55,7 +56,7 @@
         <infoLink id="7edc-5a3b-3736-f36a" name="[4] QF 2-pdr Mk VIII" hidden="false" targetId="0392-76f1-2d7b-0622" type="profile"/>
         <infoLink id="f1c5-109e-7635-881d" name="[2] BL 14&quot; Mk VII Quad Battery [ ]" hidden="false" targetId="059c-bb03-0e34-3876" type="profile"/>
         <infoLink id="2307-6c06-8242-4e60" name="[1] BL 14&quot; Mk VII Twin Battery [ ]" hidden="false" targetId="c4d7-fafc-092f-797a" type="profile"/>
-        <infoLink id="1214-a70c-e526-97ad" name="Bismarck [BB]" hidden="false" targetId="0791-a562-20c1-de59" type="profile"/>
+        <infoLink id="1214-a70c-e526-97ad" name="[BB] King George-V-class Battleship" hidden="false" targetId="0791-a562-20c1-de59" type="profile"/>
         <infoLink id="cd5f-4ade-fdd8-28a4" name="[COM]" hidden="false" targetId="7750-b6b0-763f-2d48" type="rule"/>
         <infoLink id="ba7b-f3a2-1881-7441" name="[1] BL 14&quot; Mk VII Twin Battery [ ]" hidden="false" targetId="c4d7-fafc-092f-797a" type="profile"/>
         <infoLink id="525a-a087-35ad-7c94" name="[3] BL 14&quot; Mk VII Quad Battery [ ]" hidden="false" targetId="aee2-48c2-4d67-48e0" type="profile"/>
@@ -75,7 +76,7 @@
     </selectionEntry>
     <selectionEntry id="1930-d721-eea3-75a6" name="Vice-Admiral Lancelot Holland" hidden="false" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7806-f6e6-da2d-f822" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7806-f6e6-da2d-f822" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="398d-61c3-fa2f-4a78" type="max"/>
       </constraints>
       <infoLinks>
@@ -92,12 +93,364 @@
         <cost name="PC" typeId="ad49-076b-3854-f063" value="40.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="526c-cfe6-91e0-970d" name="&quot;HMS Hood&quot; Admiral-Class Battlecruiser [COM]" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48db-24f0-dfe3-5d04" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="69ba-070f-05ee-b3d4" name="&apos;1-2 Armament" hidden="false" typeId="13f0-0ce8-9020-3ff3" typeName="(b) Armour Pen">
+          <characteristics>
+            <characteristic name="Direct Hit" typeId="4d33-6ed1-47d8-d62c">20-22</characteristic>
+            <characteristic name="Dev. Hit" typeId="aaef-8982-1722-9639">23-25</characteristic>
+            <characteristic name="Critical Hit" typeId="5fc4-80f8-9769-b93c">26+</characteristic>
+            <characteristic name="Damage Capacity" typeId="ac37-eb9c-68b1-c8c4">16</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="73ab-3dfa-2bbd-565f" name="&apos;3-5 Superstructure" hidden="false" typeId="13f0-0ce8-9020-3ff3" typeName="(b) Armour Pen">
+          <characteristics>
+            <characteristic name="Direct Hit" typeId="4d33-6ed1-47d8-d62c">12-14
+</characteristic>
+            <characteristic name="Dev. Hit" typeId="aaef-8982-1722-9639">15-17</characteristic>
+            <characteristic name="Critical Hit" typeId="5fc4-80f8-9769-b93c">18+ (OP)</characteristic>
+            <characteristic name="Damage Capacity" typeId="ac37-eb9c-68b1-c8c4">11</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7157-1648-e662-ba84" name="&apos;6-9 Deck" hidden="false" typeId="13f0-0ce8-9020-3ff3" typeName="(b) Armour Pen">
+          <characteristics>
+            <characteristic name="Direct Hit" typeId="4d33-6ed1-47d8-d62c">12-14</characteristic>
+            <characteristic name="Dev. Hit" typeId="aaef-8982-1722-9639">15-17</characteristic>
+            <characteristic name="Critical Hit" typeId="5fc4-80f8-9769-b93c">18+</characteristic>
+            <characteristic name="Damage Capacity" typeId="ac37-eb9c-68b1-c8c4">17</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3c47-6f9e-3f12-ce61" name="10-12 Main Belt" hidden="false" typeId="13f0-0ce8-9020-3ff3" typeName="(b) Armour Pen">
+          <characteristics>
+            <characteristic name="Direct Hit" typeId="4d33-6ed1-47d8-d62c">19-21
+
+</characteristic>
+            <characteristic name="Dev. Hit" typeId="aaef-8982-1722-9639">22-24
+</characteristic>
+            <characteristic name="Critical Hit" typeId="5fc4-80f8-9769-b93c">25+</characteristic>
+            <characteristic name="Damage Capacity" typeId="ac37-eb9c-68b1-c8c4">21</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b177-a42f-2beb-529e" name="[CB]" hidden="false" targetId="b9b4-7f5f-9960-6639" type="rule"/>
+        <infoLink id="c0fc-7fb0-4fc5-c4a4" name="[1] QF 4&quot; Mk XVI (Hood)" hidden="false" targetId="0d90-8ee0-9999-edc3" type="profile"/>
+        <infoLink id="1c86-ca38-afbf-bc3c" name="[2] QF 4&quot; Mk XVI (Hood)" hidden="false" targetId="6096-0325-2504-ee2d" type="profile"/>
+        <infoLink id="c49c-4f3d-afc4-9f4f" name="[3] QF 2-pdr Mk VIII (Hood)" hidden="false" targetId="732f-2621-064f-9bb9" type="profile"/>
+        <infoLink id="80a4-50d0-e23c-ae7f" name="[5] QF 2-pdr Mk VIII (Hood)" hidden="false" targetId="f678-f2cb-70f8-2ec7" type="profile"/>
+        <infoLink id="5834-0d5f-321b-a548" name="[3] BL 15&quot; Mk VII Twin Battery [ ]" hidden="false" targetId="983a-4fe3-8031-fe1f" type="profile"/>
+        <infoLink id="fcab-e154-ddda-420f" name="[1] BL 15&quot; Mk VII Twin Battery [ ]" hidden="false" targetId="df69-6485-a11f-e1d8" type="profile"/>
+        <infoLink id="779c-e94e-508a-1525" name="[CB] Admiral-class Battlecruiser" hidden="false" targetId="6f39-258c-f77c-e9fa" type="profile"/>
+        <infoLink id="125b-77c3-332f-a7d6" name="[COM]" hidden="false" targetId="7750-b6b0-763f-2d48" type="rule"/>
+        <infoLink id="b7c4-a36b-4989-f60f" name="[2] BL 15&quot; Mk VII Twin Battery [ ]" hidden="false" targetId="f847-a6cf-1512-ed4d" type="profile"/>
+        <infoLink id="6a05-4a36-f59c-96a4" name="[4] BL 15&quot; Mk VII Twin Battery [ ]" hidden="false" targetId="a6e4-d846-2533-dcb0" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9d19-0517-7e58-a439" name="UK - Royal Navy" hidden="false" targetId="07ef-b182-3379-5b81" primary="false"/>
+        <categoryLink id="66e2-0565-e911-979d" name="[CB] Battlecruisers" hidden="false" targetId="dffa-977f-48b0-505b" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d615-60da-c6e4-062e" name="Universal Refit Upgrades [CB]" hidden="false" collective="false" import="true" targetId="e8cc-59e6-6fe4-3c59" type="selectionEntryGroup"/>
+        <entryLink id="d205-2f65-2666-83c4" name="Universal Utility Modules [CB]" hidden="false" collective="false" import="true" targetId="196d-d9b1-d976-598b" type="selectionEntryGroup"/>
+        <entryLink id="a690-0f46-ef89-cef9" name="Commander on Board" hidden="false" collective="false" import="true" targetId="3eb9-bfc8-06d1-af05" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="PC" typeId="ad49-076b-3854-f063" value="193.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d1ff-93af-d9fc-2467" name="King George-V-class Battleship [COM]" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="a80e-4279-91ea-294a" name="[BB] Battleships" hidden="false" targetId="077f-eca1-7e92-9cd0" primary="true"/>
+        <categoryLink id="c7e4-250f-d206-c1e7" name="UK - Royal Navy" hidden="false" targetId="07ef-b182-3379-5b81" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e924-03e3-5956-7b87" name="King George V-class Battleship" hidden="false" collective="false" import="true" targetId="ba69-51dc-3ceb-73a9" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="b39d-963c-8303-5339" name="&quot;HMS King George V&quot; [COM]" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5c2-e615-e37e-43ee" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="005a-9dff-ab4f-87ee" name="1 Armament" hidden="false" typeId="13f0-0ce8-9020-3ff3" typeName="(b) Armour Pen">
+          <characteristics>
+            <characteristic name="Direct Hit" typeId="4d33-6ed1-47d8-d62c">19-21</characteristic>
+            <characteristic name="Dev. Hit" typeId="aaef-8982-1722-9639">22-24</characteristic>
+            <characteristic name="Critical Hit" typeId="5fc4-80f8-9769-b93c">25+</characteristic>
+            <characteristic name="Damage Capacity" typeId="ac37-eb9c-68b1-c8c4">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="912b-5d91-c4cd-fc9c" name="2 Superstructure" hidden="false" typeId="13f0-0ce8-9020-3ff3" typeName="(b) Armour Pen">
+          <characteristics>
+            <characteristic name="Direct Hit" typeId="4d33-6ed1-47d8-d62c">12-14
+</characteristic>
+            <characteristic name="Dev. Hit" typeId="aaef-8982-1722-9639">15-17</characteristic>
+            <characteristic name="Critical Hit" typeId="5fc4-80f8-9769-b93c">18+ (OP)</characteristic>
+            <characteristic name="Damage Capacity" typeId="ac37-eb9c-68b1-c8c4">10</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ddad-27bb-68ba-422f" name="3 Deck" hidden="false" typeId="13f0-0ce8-9020-3ff3" typeName="(b) Armour Pen">
+          <characteristics>
+            <characteristic name="Direct Hit" typeId="4d33-6ed1-47d8-d62c">15-17</characteristic>
+            <characteristic name="Dev. Hit" typeId="aaef-8982-1722-9639">18-20</characteristic>
+            <characteristic name="Critical Hit" typeId="5fc4-80f8-9769-b93c">21+</characteristic>
+            <characteristic name="Damage Capacity" typeId="ac37-eb9c-68b1-c8c4">14</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4d76-826b-12c8-3c4f" name="4 Main Belt" hidden="false" typeId="13f0-0ce8-9020-3ff3" typeName="(b) Armour Pen">
+          <characteristics>
+            <characteristic name="Direct Hit" typeId="4d33-6ed1-47d8-d62c">20-22
+
+</characteristic>
+            <characteristic name="Dev. Hit" typeId="aaef-8982-1722-9639">23-25
+</characteristic>
+            <characteristic name="Critical Hit" typeId="5fc4-80f8-9769-b93c">26+</characteristic>
+            <characteristic name="Damage Capacity" typeId="ac37-eb9c-68b1-c8c4">22</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f0c4-0e64-ebd0-cb76" name="[BB]" hidden="false" targetId="0523-c0db-1ab4-4720" type="rule"/>
+        <infoLink id="7850-7146-0cab-94cb" name="[1] QF 5.25&quot; Mk I" hidden="false" targetId="bfac-dee1-a046-94b8" type="profile"/>
+        <infoLink id="9df1-a43d-101e-817f" name="[1] QF 5.25&quot; Mk I" hidden="false" targetId="bfac-dee1-a046-94b8" type="profile"/>
+        <infoLink id="005a-880f-c2f5-6ec0" name="[2] QF 5.25&quot; Mk I" hidden="false" targetId="13c8-44be-c726-697d" type="profile"/>
+        <infoLink id="3e38-c228-e0c3-dc62" name="[3] QF 2-pdr Mk VIII" hidden="false" targetId="f485-ee32-8180-1141" type="profile"/>
+        <infoLink id="21fe-bf9c-06dd-0ee6" name="[4] QF 2-pdr Mk VIII" hidden="false" targetId="0392-76f1-2d7b-0622" type="profile"/>
+        <infoLink id="6638-9194-c767-6125" name="[2] BL 14&quot; Mk VII Quad Battery [ ]" hidden="false" targetId="059c-bb03-0e34-3876" type="profile"/>
+        <infoLink id="ae73-93e8-c8cc-7fcd" name="[1] BL 14&quot; Mk VII Twin Battery [ ]" hidden="false" targetId="c4d7-fafc-092f-797a" type="profile"/>
+        <infoLink id="e0ff-41ab-7429-1456" name="[BB] King George-V-class Battleship" hidden="false" targetId="0791-a562-20c1-de59" type="profile"/>
+        <infoLink id="ee2b-b5da-0417-5b13" name="[COM]" hidden="false" targetId="7750-b6b0-763f-2d48" type="rule"/>
+        <infoLink id="0883-6ed1-0661-207e" name="[1] BL 14&quot; Mk VII Twin Battery [ ]" hidden="false" targetId="c4d7-fafc-092f-797a" type="profile"/>
+        <infoLink id="5b02-7bae-2370-50f7" name="[3] BL 14&quot; Mk VII Quad Battery [ ]" hidden="false" targetId="aee2-48c2-4d67-48e0" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d4db-21b6-5f50-4c81" name="Battleship [BB]" hidden="false" targetId="077f-eca1-7e92-9cd0" primary="true"/>
+        <categoryLink id="d1f0-c76f-feca-7978" name="UK - Royal Navy" hidden="false" targetId="07ef-b182-3379-5b81" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="527b-f17d-d116-8e35" name="Universal Refit Upgrades [BB]" hidden="false" collective="false" import="true" targetId="380c-3875-3372-cb4b" type="selectionEntryGroup"/>
+        <entryLink id="670c-e516-30a8-ee6f" name="Universal Utility Modules [BB]" hidden="false" collective="false" import="true" targetId="4466-1fd3-988b-1908" type="selectionEntryGroup"/>
+        <entryLink id="2ef6-02ad-8d88-7dce" name="Commander on Board" hidden="false" collective="false" import="true" targetId="3eb9-bfc8-06d1-af05" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="PC" typeId="ad49-076b-3854-f063" value="220.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ba2a-b43a-8613-ea5d" name="&quot;HMS Duke of York&quot; [COM]" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b31f-5305-51c7-aeea" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="855a-4b6e-b9b2-abdb" name="1 Armament" hidden="false" typeId="13f0-0ce8-9020-3ff3" typeName="(b) Armour Pen">
+          <characteristics>
+            <characteristic name="Direct Hit" typeId="4d33-6ed1-47d8-d62c">19-21</characteristic>
+            <characteristic name="Dev. Hit" typeId="aaef-8982-1722-9639">22-24</characteristic>
+            <characteristic name="Critical Hit" typeId="5fc4-80f8-9769-b93c">25+</characteristic>
+            <characteristic name="Damage Capacity" typeId="ac37-eb9c-68b1-c8c4">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d085-0061-cca5-fc4b" name="2 Superstructure" hidden="false" typeId="13f0-0ce8-9020-3ff3" typeName="(b) Armour Pen">
+          <characteristics>
+            <characteristic name="Direct Hit" typeId="4d33-6ed1-47d8-d62c">12-14
+</characteristic>
+            <characteristic name="Dev. Hit" typeId="aaef-8982-1722-9639">15-17</characteristic>
+            <characteristic name="Critical Hit" typeId="5fc4-80f8-9769-b93c">18+ (OP)</characteristic>
+            <characteristic name="Damage Capacity" typeId="ac37-eb9c-68b1-c8c4">10</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="2216-25b0-7fbb-a9d5" name="3 Deck" hidden="false" typeId="13f0-0ce8-9020-3ff3" typeName="(b) Armour Pen">
+          <characteristics>
+            <characteristic name="Direct Hit" typeId="4d33-6ed1-47d8-d62c">15-17</characteristic>
+            <characteristic name="Dev. Hit" typeId="aaef-8982-1722-9639">18-20</characteristic>
+            <characteristic name="Critical Hit" typeId="5fc4-80f8-9769-b93c">21+</characteristic>
+            <characteristic name="Damage Capacity" typeId="ac37-eb9c-68b1-c8c4">14</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="df9d-ff3e-273d-a3a0" name="4 Main Belt" hidden="false" typeId="13f0-0ce8-9020-3ff3" typeName="(b) Armour Pen">
+          <characteristics>
+            <characteristic name="Direct Hit" typeId="4d33-6ed1-47d8-d62c">20-22
+
+</characteristic>
+            <characteristic name="Dev. Hit" typeId="aaef-8982-1722-9639">23-25
+</characteristic>
+            <characteristic name="Critical Hit" typeId="5fc4-80f8-9769-b93c">26+</characteristic>
+            <characteristic name="Damage Capacity" typeId="ac37-eb9c-68b1-c8c4">22</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ecec-d491-25b4-391e" name="[BB]" hidden="false" targetId="0523-c0db-1ab4-4720" type="rule"/>
+        <infoLink id="4b21-0392-e857-a6db" name="[1] QF 5.25&quot; Mk I" hidden="false" targetId="bfac-dee1-a046-94b8" type="profile"/>
+        <infoLink id="c2df-23e7-ae4d-9fe4" name="[1] QF 5.25&quot; Mk I" hidden="false" targetId="bfac-dee1-a046-94b8" type="profile"/>
+        <infoLink id="ac6a-3511-2469-48f5" name="[2] QF 5.25&quot; Mk I" hidden="false" targetId="13c8-44be-c726-697d" type="profile"/>
+        <infoLink id="4ee2-9644-5eb7-b824" name="[3] QF 2-pdr Mk VIII" hidden="false" targetId="f485-ee32-8180-1141" type="profile"/>
+        <infoLink id="cbd7-a604-8d5b-a42c" name="[4] QF 2-pdr Mk VIII" hidden="false" targetId="0392-76f1-2d7b-0622" type="profile"/>
+        <infoLink id="811c-2380-2844-ae2d" name="[2] BL 14&quot; Mk VII Quad Battery [ ]" hidden="false" targetId="059c-bb03-0e34-3876" type="profile"/>
+        <infoLink id="8f83-6a4d-7e5d-4811" name="[1] BL 14&quot; Mk VII Twin Battery [ ]" hidden="false" targetId="c4d7-fafc-092f-797a" type="profile"/>
+        <infoLink id="54d6-2cfc-363e-1cb2" name="[BB] King George-V-class Battleship" hidden="false" targetId="0791-a562-20c1-de59" type="profile"/>
+        <infoLink id="21e0-9a49-9175-85ee" name="[COM]" hidden="false" targetId="7750-b6b0-763f-2d48" type="rule"/>
+        <infoLink id="fd48-ad85-2d40-c424" name="[1] BL 14&quot; Mk VII Twin Battery [ ]" hidden="false" targetId="c4d7-fafc-092f-797a" type="profile"/>
+        <infoLink id="80ec-839a-a594-9265" name="[3] BL 14&quot; Mk VII Quad Battery [ ]" hidden="false" targetId="aee2-48c2-4d67-48e0" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="acaa-c4fb-566d-5f35" name="Battleship [BB]" hidden="false" targetId="077f-eca1-7e92-9cd0" primary="true"/>
+        <categoryLink id="361f-c81f-7d4d-eb4f" name="UK - Royal Navy" hidden="false" targetId="07ef-b182-3379-5b81" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="6c2b-e214-0662-a2c5" name="Universal Refit Upgrades [BB]" hidden="false" collective="false" import="true" targetId="380c-3875-3372-cb4b" type="selectionEntryGroup"/>
+        <entryLink id="2e59-318f-4795-812b" name="Universal Utility Modules [BB]" hidden="false" collective="false" import="true" targetId="4466-1fd3-988b-1908" type="selectionEntryGroup"/>
+        <entryLink id="e6ce-f6e2-0cc3-4ba0" name="Commander on Board" hidden="false" collective="false" import="true" targetId="3eb9-bfc8-06d1-af05" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="PC" typeId="ad49-076b-3854-f063" value="220.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8843-8e84-7511-fbbd" name="&quot;HMS Howe&quot; [COM]" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c37-5703-deab-38cb" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="b716-03f3-35e2-11a3" name="1 Armament" hidden="false" typeId="13f0-0ce8-9020-3ff3" typeName="(b) Armour Pen">
+          <characteristics>
+            <characteristic name="Direct Hit" typeId="4d33-6ed1-47d8-d62c">19-21</characteristic>
+            <characteristic name="Dev. Hit" typeId="aaef-8982-1722-9639">22-24</characteristic>
+            <characteristic name="Critical Hit" typeId="5fc4-80f8-9769-b93c">25+</characteristic>
+            <characteristic name="Damage Capacity" typeId="ac37-eb9c-68b1-c8c4">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="abf6-1897-7b6e-f544" name="2 Superstructure" hidden="false" typeId="13f0-0ce8-9020-3ff3" typeName="(b) Armour Pen">
+          <characteristics>
+            <characteristic name="Direct Hit" typeId="4d33-6ed1-47d8-d62c">12-14
+</characteristic>
+            <characteristic name="Dev. Hit" typeId="aaef-8982-1722-9639">15-17</characteristic>
+            <characteristic name="Critical Hit" typeId="5fc4-80f8-9769-b93c">18+ (OP)</characteristic>
+            <characteristic name="Damage Capacity" typeId="ac37-eb9c-68b1-c8c4">10</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="86a5-dc5a-dcf6-52ed" name="3 Deck" hidden="false" typeId="13f0-0ce8-9020-3ff3" typeName="(b) Armour Pen">
+          <characteristics>
+            <characteristic name="Direct Hit" typeId="4d33-6ed1-47d8-d62c">15-17</characteristic>
+            <characteristic name="Dev. Hit" typeId="aaef-8982-1722-9639">18-20</characteristic>
+            <characteristic name="Critical Hit" typeId="5fc4-80f8-9769-b93c">21+</characteristic>
+            <characteristic name="Damage Capacity" typeId="ac37-eb9c-68b1-c8c4">14</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4cd8-135b-c077-c071" name="4 Main Belt" hidden="false" typeId="13f0-0ce8-9020-3ff3" typeName="(b) Armour Pen">
+          <characteristics>
+            <characteristic name="Direct Hit" typeId="4d33-6ed1-47d8-d62c">20-22
+
+</characteristic>
+            <characteristic name="Dev. Hit" typeId="aaef-8982-1722-9639">23-25
+</characteristic>
+            <characteristic name="Critical Hit" typeId="5fc4-80f8-9769-b93c">26+</characteristic>
+            <characteristic name="Damage Capacity" typeId="ac37-eb9c-68b1-c8c4">22</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="651a-0418-2f43-f71f" name="[BB]" hidden="false" targetId="0523-c0db-1ab4-4720" type="rule"/>
+        <infoLink id="0f45-e399-fe29-18b0" name="[1] QF 5.25&quot; Mk I" hidden="false" targetId="bfac-dee1-a046-94b8" type="profile"/>
+        <infoLink id="d5d8-10c0-5686-371b" name="[1] QF 5.25&quot; Mk I" hidden="false" targetId="bfac-dee1-a046-94b8" type="profile"/>
+        <infoLink id="3cbd-a8bb-250d-07af" name="[2] QF 5.25&quot; Mk I" hidden="false" targetId="13c8-44be-c726-697d" type="profile"/>
+        <infoLink id="1852-e762-c85a-7bcc" name="[3] QF 2-pdr Mk VIII" hidden="false" targetId="f485-ee32-8180-1141" type="profile"/>
+        <infoLink id="01ee-91b5-cfba-f493" name="[4] QF 2-pdr Mk VIII" hidden="false" targetId="0392-76f1-2d7b-0622" type="profile"/>
+        <infoLink id="dced-d406-f3c6-32a2" name="[2] BL 14&quot; Mk VII Quad Battery [ ]" hidden="false" targetId="059c-bb03-0e34-3876" type="profile"/>
+        <infoLink id="940b-aba0-c33f-8c04" name="[1] BL 14&quot; Mk VII Twin Battery [ ]" hidden="false" targetId="c4d7-fafc-092f-797a" type="profile"/>
+        <infoLink id="591f-2aed-f09a-693e" name="[BB] King George-V-class Battleship" hidden="false" targetId="0791-a562-20c1-de59" type="profile"/>
+        <infoLink id="2d44-d121-3cfa-62aa" name="[COM]" hidden="false" targetId="7750-b6b0-763f-2d48" type="rule"/>
+        <infoLink id="2b6f-5a44-bd32-69c4" name="[1] BL 14&quot; Mk VII Twin Battery [ ]" hidden="false" targetId="c4d7-fafc-092f-797a" type="profile"/>
+        <infoLink id="8f92-0b91-8a20-52bc" name="[3] BL 14&quot; Mk VII Quad Battery [ ]" hidden="false" targetId="aee2-48c2-4d67-48e0" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4709-a95c-d083-71c6" name="Battleship [BB]" hidden="false" targetId="077f-eca1-7e92-9cd0" primary="true"/>
+        <categoryLink id="b844-30f4-f273-39a1" name="UK - Royal Navy" hidden="false" targetId="07ef-b182-3379-5b81" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="8e08-c09f-e781-45c0" name="Universal Refit Upgrades [BB]" hidden="false" collective="false" import="true" targetId="380c-3875-3372-cb4b" type="selectionEntryGroup"/>
+        <entryLink id="91e9-0c2c-f4cf-a6c0" name="Universal Utility Modules [BB]" hidden="false" collective="false" import="true" targetId="4466-1fd3-988b-1908" type="selectionEntryGroup"/>
+        <entryLink id="d8a5-7bc7-fe3d-d387" name="Commander on Board" hidden="false" collective="false" import="true" targetId="3eb9-bfc8-06d1-af05" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="PC" typeId="ad49-076b-3854-f063" value="220.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bd91-e70b-319b-410c" name="&quot;HMS Anson&quot; [COM]" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6ea-7623-5652-4e30" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="ff84-e01b-2452-24e7" name="1 Armament" hidden="false" typeId="13f0-0ce8-9020-3ff3" typeName="(b) Armour Pen">
+          <characteristics>
+            <characteristic name="Direct Hit" typeId="4d33-6ed1-47d8-d62c">19-21</characteristic>
+            <characteristic name="Dev. Hit" typeId="aaef-8982-1722-9639">22-24</characteristic>
+            <characteristic name="Critical Hit" typeId="5fc4-80f8-9769-b93c">25+</characteristic>
+            <characteristic name="Damage Capacity" typeId="ac37-eb9c-68b1-c8c4">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="21ae-36d0-4582-2e50" name="2 Superstructure" hidden="false" typeId="13f0-0ce8-9020-3ff3" typeName="(b) Armour Pen">
+          <characteristics>
+            <characteristic name="Direct Hit" typeId="4d33-6ed1-47d8-d62c">12-14
+</characteristic>
+            <characteristic name="Dev. Hit" typeId="aaef-8982-1722-9639">15-17</characteristic>
+            <characteristic name="Critical Hit" typeId="5fc4-80f8-9769-b93c">18+ (OP)</characteristic>
+            <characteristic name="Damage Capacity" typeId="ac37-eb9c-68b1-c8c4">10</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="76df-104d-fa94-4057" name="3 Deck" hidden="false" typeId="13f0-0ce8-9020-3ff3" typeName="(b) Armour Pen">
+          <characteristics>
+            <characteristic name="Direct Hit" typeId="4d33-6ed1-47d8-d62c">15-17</characteristic>
+            <characteristic name="Dev. Hit" typeId="aaef-8982-1722-9639">18-20</characteristic>
+            <characteristic name="Critical Hit" typeId="5fc4-80f8-9769-b93c">21+</characteristic>
+            <characteristic name="Damage Capacity" typeId="ac37-eb9c-68b1-c8c4">14</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1edb-e14f-4895-499d" name="4 Main Belt" hidden="false" typeId="13f0-0ce8-9020-3ff3" typeName="(b) Armour Pen">
+          <characteristics>
+            <characteristic name="Direct Hit" typeId="4d33-6ed1-47d8-d62c">20-22
+
+</characteristic>
+            <characteristic name="Dev. Hit" typeId="aaef-8982-1722-9639">23-25
+</characteristic>
+            <characteristic name="Critical Hit" typeId="5fc4-80f8-9769-b93c">26+</characteristic>
+            <characteristic name="Damage Capacity" typeId="ac37-eb9c-68b1-c8c4">22</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8abf-26e8-6c8b-bfc9" name="[BB]" hidden="false" targetId="0523-c0db-1ab4-4720" type="rule"/>
+        <infoLink id="9456-d4d7-7fda-c53d" name="[1] QF 5.25&quot; Mk I" hidden="false" targetId="bfac-dee1-a046-94b8" type="profile"/>
+        <infoLink id="62de-cc56-778d-f1bc" name="[1] QF 5.25&quot; Mk I" hidden="false" targetId="bfac-dee1-a046-94b8" type="profile"/>
+        <infoLink id="c404-b33c-4bdd-fe67" name="[2] QF 5.25&quot; Mk I" hidden="false" targetId="13c8-44be-c726-697d" type="profile"/>
+        <infoLink id="d4db-cebd-413d-a41f" name="[3] QF 2-pdr Mk VIII" hidden="false" targetId="f485-ee32-8180-1141" type="profile"/>
+        <infoLink id="72c6-de5f-3a33-a515" name="[4] QF 2-pdr Mk VIII" hidden="false" targetId="0392-76f1-2d7b-0622" type="profile"/>
+        <infoLink id="ea87-d57e-36ad-e242" name="[2] BL 14&quot; Mk VII Quad Battery [ ]" hidden="false" targetId="059c-bb03-0e34-3876" type="profile"/>
+        <infoLink id="2b68-996f-d376-2ce6" name="[1] BL 14&quot; Mk VII Twin Battery [ ]" hidden="false" targetId="c4d7-fafc-092f-797a" type="profile"/>
+        <infoLink id="88ed-1afd-b024-2699" name="[BB] King George-V-class Battleship" hidden="false" targetId="0791-a562-20c1-de59" type="profile"/>
+        <infoLink id="e5d6-a183-24c3-6876" name="[COM]" hidden="false" targetId="7750-b6b0-763f-2d48" type="rule"/>
+        <infoLink id="4af1-7653-ff9d-87b8" name="[1] BL 14&quot; Mk VII Twin Battery [ ]" hidden="false" targetId="c4d7-fafc-092f-797a" type="profile"/>
+        <infoLink id="2a1a-3f43-105b-9bd2" name="[3] BL 14&quot; Mk VII Quad Battery [ ]" hidden="false" targetId="aee2-48c2-4d67-48e0" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="55c6-d0ce-d525-2443" name="Battleship [BB]" hidden="false" targetId="077f-eca1-7e92-9cd0" primary="true"/>
+        <categoryLink id="6df7-89a5-8a44-92bd" name="UK - Royal Navy" hidden="false" targetId="07ef-b182-3379-5b81" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c88b-fd66-519b-15bd" name="Universal Refit Upgrades [BB]" hidden="false" collective="false" import="true" targetId="380c-3875-3372-cb4b" type="selectionEntryGroup"/>
+        <entryLink id="bb1c-d00a-e6f7-4ff3" name="Universal Utility Modules [BB]" hidden="false" collective="false" import="true" targetId="4466-1fd3-988b-1908" type="selectionEntryGroup"/>
+        <entryLink id="6bcc-ca7a-f58e-7e6d" name="Commander on Board" hidden="false" collective="false" import="true" targetId="3eb9-bfc8-06d1-af05" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="PC" typeId="ad49-076b-3854-f063" value="220.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="3eb9-bfc8-06d1-af05" name="Commander on Board" hidden="false" collective="false" import="true">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2878-ec45-95ed-c940" type="max"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa58-9a24-b075-c76c" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ce06-ed05-c773-d899" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="b5f5-9db2-4501-d3c8" name="Commanders" hidden="false" targetId="e4c2-8786-f1de-bbea" primary="false"/>
@@ -106,9 +459,45 @@
         <entryLink id="dbdf-c476-8998-4819" name="Vice-Admiral Lancelot Holland" hidden="false" collective="false" import="true" targetId="1930-d721-eea3-75a6" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
+    <selectionEntryGroup id="ba69-51dc-3ceb-73a9" name="King George V-class Battleship" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="798c-156e-45ac-2d90" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="eb75-4b0c-4b3b-fc17" name="[BB] Battleships" hidden="false" targetId="077f-eca1-7e92-9cd0" primary="true"/>
+        <categoryLink id="2ac0-0210-244b-9476" name="UK - Royal Navy" hidden="false" targetId="07ef-b182-3379-5b81" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="fb20-f3a6-606c-6137" name="&quot;HMS Prince of Wales&quot; [COM]" hidden="false" collective="false" import="true" targetId="aaef-4fe3-6fae-8091" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="7687-b4ab-1f13-bb65" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="7ff2-60f3-fe8b-7665" name="&quot;HMS King George V&quot; [COM]" hidden="false" collective="false" import="true" targetId="b39d-963c-8303-5339" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3be3-7d93-144c-382f" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="96a5-15fe-354b-eebb" name="&quot;HMS Duke of York&quot; [COM]" hidden="false" collective="false" import="true" targetId="ba2a-b43a-8613-ea5d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1617-cf28-7418-f514" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="c806-ef33-38ea-a9b4" name="&quot;HMS Anson&quot; [COM]" hidden="false" collective="false" import="true" targetId="bd91-e70b-319b-410c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="248f-4fd4-3c53-1d1f" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="8f6c-035d-0823-07fd" name="&quot;HMS Howe&quot; [COM]" hidden="false" collective="false" import="true" targetId="8843-8e84-7511-fbbd" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8a73-031c-7dda-4cad" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedProfiles>
-    <profile id="bfac-dee1-a046-94b8" name="[1] QF 5.25&quot; Mk I" hidden="false" typeId="b6cd-8fe8-eb74-c7a1" typeName="(d) Secondary/AA Armaments">
+    <profile id="bfac-dee1-a046-94b8" name="[1] QF 5.25&quot; Mk I (KG-V)" hidden="false" typeId="b6cd-8fe8-eb74-c7a1" typeName="(d) Secondary/AA Armaments">
       <characteristics>
         <characteristic name="Type" typeId="c050-d811-7821-5c2b">Dual</characteristic>
         <characteristic name="R" typeId="94f9-7e63-0b21-5c80">20&quot;/26&quot; (11&quot;)</characteristic>
@@ -133,11 +522,11 @@
         <characteristic name="AP" typeId="d5cb-211c-d60a-7b97">14</characteristic>
       </characteristics>
     </profile>
-    <profile id="0791-a562-20c1-de59" name="Prince of Wales [BB]" hidden="false" typeId="5fa1-6d0c-b6e9-7e36" typeName="(a) Ship">
+    <profile id="0791-a562-20c1-de59" name="[BB] King George-V-class Battleship" hidden="false" typeId="5fa1-6d0c-b6e9-7e36" typeName="(a) Ship">
       <characteristics>
         <characteristic name="Nation" typeId="a7f3-e115-062b-e15a">UK</characteristic>
         <characteristic name="Class" typeId="25ef-9079-d262-4746">BB</characteristic>
-        <characteristic name="FA" typeId="724d-0b26-32ee-e603">1</characteristic>
+        <characteristic name="FA" typeId="724d-0b26-32ee-e603">5</characteristic>
         <characteristic name="CD" typeId="ab3f-0a8d-4f21-c5bb">6</characteristic>
         <characteristic name="SIL" typeId="1ae8-a2f0-4dfa-5382">B-12&quot;/F-18&quot;</characteristic>
         <characteristic name="COM-V" typeId="09b0-ee2f-cafe-7fe8">4+</characteristic>
@@ -184,7 +573,7 @@
     </profile>
     <profile id="aee2-48c2-4d67-48e0" name="[3] BL 14&quot; Mk VII Quad Battery [ ]" hidden="false" typeId="1a35-701f-65d5-642a" typeName="(c1) Main Armaments">
       <characteristics>
-        <characteristic name="Type" typeId="f5c3-fb03-0a2f-71f2">Turret (FWD)</characteristic>
+        <characteristic name="Type" typeId="f5c3-fb03-0a2f-71f2">Turret (AFT)</characteristic>
         <characteristic name="R" typeId="6795-efc7-5546-6cfa">28&quot;/34&quot;
 </characteristic>
         <characteristic name="A" typeId="9f0f-bbce-15bf-fea6">4
@@ -195,7 +584,7 @@
         <characteristic name="AP" typeId="d5cb-211c-d60a-7b97">14</characteristic>
       </characteristics>
     </profile>
-    <profile id="13c8-44be-c726-697d" name="[2] QF 5.25&quot; Mk I" hidden="false" typeId="b6cd-8fe8-eb74-c7a1" typeName="(d) Secondary/AA Armaments">
+    <profile id="13c8-44be-c726-697d" name="[2] QF 5.25&quot; Mk I (KG-V)" hidden="false" typeId="b6cd-8fe8-eb74-c7a1" typeName="(d) Secondary/AA Armaments">
       <characteristics>
         <characteristic name="Type" typeId="c050-d811-7821-5c2b">Dual</characteristic>
         <characteristic name="R" typeId="94f9-7e63-0b21-5c80">20&quot;/26&quot; (11&quot;)</characteristic>
@@ -207,7 +596,7 @@
         <characteristic name="AP" typeId="aad4-3469-9ddf-3a99">5</characteristic>
       </characteristics>
     </profile>
-    <profile id="f485-ee32-8180-1141" name="[3] QF 2-pdr Mk VIII" hidden="false" typeId="b6cd-8fe8-eb74-c7a1" typeName="(d) Secondary/AA Armaments">
+    <profile id="f485-ee32-8180-1141" name="[3] QF 2-pdr Mk VIII (KG-V)" hidden="false" typeId="b6cd-8fe8-eb74-c7a1" typeName="(d) Secondary/AA Armaments">
       <characteristics>
         <characteristic name="Type" typeId="c050-d811-7821-5c2b">AA</characteristic>
         <characteristic name="R" typeId="94f9-7e63-0b21-5c80">4&quot;</characteristic>
@@ -218,7 +607,7 @@
         <characteristic name="AP" typeId="aad4-3469-9ddf-3a99">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="0392-76f1-2d7b-0622" name="[4] QF 2-pdr Mk VIII" hidden="false" typeId="b6cd-8fe8-eb74-c7a1" typeName="(d) Secondary/AA Armaments">
+    <profile id="0392-76f1-2d7b-0622" name="[4] QF 2-pdr Mk VIII (KG-V)" hidden="false" typeId="b6cd-8fe8-eb74-c7a1" typeName="(d) Secondary/AA Armaments">
       <characteristics>
         <characteristic name="Type" typeId="c050-d811-7821-5c2b">AA</characteristic>
         <characteristic name="R" typeId="94f9-7e63-0b21-5c80">4&quot;</characteristic>
@@ -229,7 +618,7 @@
         <characteristic name="AP" typeId="aad4-3469-9ddf-3a99">-</characteristic>
       </characteristics>
     </profile>
-    <profile id="6f39-258c-f77c-e9fa" name="Hood [CB]" hidden="false" typeId="5fa1-6d0c-b6e9-7e36" typeName="(a) Ship">
+    <profile id="6f39-258c-f77c-e9fa" name="[CB] Admiral-class Battlecruiser" hidden="false" typeId="5fa1-6d0c-b6e9-7e36" typeName="(a) Ship">
       <characteristics>
         <characteristic name="Nation" typeId="a7f3-e115-062b-e15a">UK</characteristic>
         <characteristic name="Class" typeId="25ef-9079-d262-4746">CB</characteristic>
@@ -240,6 +629,115 @@
         <characteristic name="COM-R" typeId="3bf1-d802-e7b1-4c67">8&quot;</characteristic>
         <characteristic name="Refit Upgrades" typeId="ea89-3453-52b1-1cfe">1</characteristic>
         <characteristic name="Utility Modules" typeId="ccef-48bf-8df1-b0b6">2</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="df69-6485-a11f-e1d8" name="[1] BL 15&quot; Mk VII Twin Battery [ ]" hidden="false" typeId="1a35-701f-65d5-642a" typeName="(c1) Main Armaments">
+      <characteristics>
+        <characteristic name="Type" typeId="f5c3-fb03-0a2f-71f2">Turret (FWD)</characteristic>
+        <characteristic name="R" typeId="6795-efc7-5546-6cfa">24&quot;/30&quot;
+</characteristic>
+        <characteristic name="A" typeId="9f0f-bbce-15bf-fea6">2
+</characteristic>
+        <characteristic name="G" typeId="3e06-9963-399d-58d9">6+</characteristic>
+        <characteristic name="ARC" typeId="40f6-5ed9-4c7d-f4fd">F/S</characteristic>
+        <characteristic name="HE" typeId="ce41-7014-02c9-6aa8">10 (8+)</characteristic>
+        <characteristic name="AP" typeId="d5cb-211c-d60a-7b97">15</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f847-a6cf-1512-ed4d" name="[2] BL 15&quot; Mk VII Twin Battery [ ]" hidden="false" typeId="1a35-701f-65d5-642a" typeName="(c1) Main Armaments">
+      <characteristics>
+        <characteristic name="Type" typeId="f5c3-fb03-0a2f-71f2">Turret (FWD)</characteristic>
+        <characteristic name="R" typeId="6795-efc7-5546-6cfa">24&quot;/30&quot;
+</characteristic>
+        <characteristic name="A" typeId="9f0f-bbce-15bf-fea6">2
+</characteristic>
+        <characteristic name="G" typeId="3e06-9963-399d-58d9">6+</characteristic>
+        <characteristic name="ARC" typeId="40f6-5ed9-4c7d-f4fd">F/S</characteristic>
+        <characteristic name="HE" typeId="ce41-7014-02c9-6aa8">10 (8+)</characteristic>
+        <characteristic name="AP" typeId="d5cb-211c-d60a-7b97">15</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="983a-4fe3-8031-fe1f" name="[3] BL 15&quot; Mk VII Twin Battery [ ]" hidden="false" typeId="1a35-701f-65d5-642a" typeName="(c1) Main Armaments">
+      <characteristics>
+        <characteristic name="Type" typeId="f5c3-fb03-0a2f-71f2">Turret (AFT)</characteristic>
+        <characteristic name="R" typeId="6795-efc7-5546-6cfa">24&quot;/30&quot;
+</characteristic>
+        <characteristic name="A" typeId="9f0f-bbce-15bf-fea6">2
+</characteristic>
+        <characteristic name="G" typeId="3e06-9963-399d-58d9">6+</characteristic>
+        <characteristic name="ARC" typeId="40f6-5ed9-4c7d-f4fd">A/S</characteristic>
+        <characteristic name="HE" typeId="ce41-7014-02c9-6aa8">10 (8+)</characteristic>
+        <characteristic name="AP" typeId="d5cb-211c-d60a-7b97">15</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a6e4-d846-2533-dcb0" name="[4] BL 15&quot; Mk VII Twin Battery [ ]" hidden="false" typeId="1a35-701f-65d5-642a" typeName="(c1) Main Armaments">
+      <characteristics>
+        <characteristic name="Type" typeId="f5c3-fb03-0a2f-71f2">Turret (AFT)</characteristic>
+        <characteristic name="R" typeId="6795-efc7-5546-6cfa">24&quot;/30&quot;
+</characteristic>
+        <characteristic name="A" typeId="9f0f-bbce-15bf-fea6">2
+</characteristic>
+        <characteristic name="G" typeId="3e06-9963-399d-58d9">6+</characteristic>
+        <characteristic name="ARC" typeId="40f6-5ed9-4c7d-f4fd">A/S</characteristic>
+        <characteristic name="HE" typeId="ce41-7014-02c9-6aa8">10 (8+)</characteristic>
+        <characteristic name="AP" typeId="d5cb-211c-d60a-7b97">15</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0d90-8ee0-9999-edc3" name="[1] QF 4&quot; Mk XVI (Hood)" hidden="false" typeId="b6cd-8fe8-eb74-c7a1" typeName="(d) Secondary/AA Armaments">
+      <characteristics>
+        <characteristic name="Type" typeId="c050-d811-7821-5c2b">Dual</characteristic>
+        <characteristic name="R" typeId="94f9-7e63-0b21-5c80">18&quot;/22&quot; (9&quot;)</characteristic>
+        <characteristic name="A" typeId="652e-9328-331d-f084">8</characteristic>
+        <characteristic name="G" typeId="d140-aee7-4443-c168">7+(8+)</characteristic>
+        <characteristic name="ARC" typeId="95a5-b542-0326-de5c">S(SB)</characteristic>
+        <characteristic name="HE" typeId="7575-870c-c31b-477d">3 (9+)
+</characteristic>
+        <characteristic name="AP" typeId="aad4-3469-9ddf-3a99">4</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6096-0325-2504-ee2d" name="[2] QF 4&quot; Mk XVI (Hood)" hidden="false" typeId="b6cd-8fe8-eb74-c7a1" typeName="(d) Secondary/AA Armaments">
+      <characteristics>
+        <characteristic name="Type" typeId="c050-d811-7821-5c2b">Dual</characteristic>
+        <characteristic name="R" typeId="94f9-7e63-0b21-5c80">18&quot;/22&quot; (9&quot;)</characteristic>
+        <characteristic name="A" typeId="652e-9328-331d-f084">8</characteristic>
+        <characteristic name="G" typeId="d140-aee7-4443-c168">7+(8+)</characteristic>
+        <characteristic name="ARC" typeId="95a5-b542-0326-de5c">S(P)</characteristic>
+        <characteristic name="HE" typeId="7575-870c-c31b-477d">3 (9+)
+</characteristic>
+        <characteristic name="AP" typeId="aad4-3469-9ddf-3a99">4</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="732f-2621-064f-9bb9" name="[3] QF 2-pdr Mk VIII (Hood)" hidden="false" typeId="b6cd-8fe8-eb74-c7a1" typeName="(d) Secondary/AA Armaments">
+      <characteristics>
+        <characteristic name="Type" typeId="c050-d811-7821-5c2b">AA</characteristic>
+        <characteristic name="R" typeId="94f9-7e63-0b21-5c80">4&quot;</characteristic>
+        <characteristic name="A" typeId="652e-9328-331d-f084">4</characteristic>
+        <characteristic name="G" typeId="d140-aee7-4443-c168">8+</characteristic>
+        <characteristic name="ARC" typeId="95a5-b542-0326-de5c">360</characteristic>
+        <characteristic name="HE" typeId="7575-870c-c31b-477d">-</characteristic>
+        <characteristic name="AP" typeId="aad4-3469-9ddf-3a99">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="358b-ccc8-7ff0-037c" name="[4] QF 2-pdr Mk VIII (Hood)" hidden="false" typeId="b6cd-8fe8-eb74-c7a1" typeName="(d) Secondary/AA Armaments">
+      <characteristics>
+        <characteristic name="Type" typeId="c050-d811-7821-5c2b">AA</characteristic>
+        <characteristic name="R" typeId="94f9-7e63-0b21-5c80">4&quot;</characteristic>
+        <characteristic name="A" typeId="652e-9328-331d-f084">4</characteristic>
+        <characteristic name="G" typeId="d140-aee7-4443-c168">8+</characteristic>
+        <characteristic name="ARC" typeId="95a5-b542-0326-de5c">360</characteristic>
+        <characteristic name="HE" typeId="7575-870c-c31b-477d">-</characteristic>
+        <characteristic name="AP" typeId="aad4-3469-9ddf-3a99">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f678-f2cb-70f8-2ec7" name="[5] QF 2-pdr Mk VIII (Hood)" hidden="false" typeId="b6cd-8fe8-eb74-c7a1" typeName="(d) Secondary/AA Armaments">
+      <characteristics>
+        <characteristic name="Type" typeId="c050-d811-7821-5c2b">AA</characteristic>
+        <characteristic name="R" typeId="94f9-7e63-0b21-5c80">4&quot;</characteristic>
+        <characteristic name="A" typeId="652e-9328-331d-f084">4</characteristic>
+        <characteristic name="G" typeId="d140-aee7-4443-c168">8+</characteristic>
+        <characteristic name="ARC" typeId="95a5-b542-0326-de5c">360</characteristic>
+        <characteristic name="HE" typeId="7575-870c-c31b-477d">-</characteristic>
+        <characteristic name="AP" typeId="aad4-3469-9ddf-3a99">-</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="4728-e1b0-9a4c-5ecd" name="High Calibre: Tabletop Naval Warfare" revision="1" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="4728-e1b0-9a4c-5ecd" name="High Calibre: Tabletop Naval Warfare" revision="1" battleScribeVersion="2.03" authorName="A.Bullard" authorContact="info@laserforgeminis.com" authorUrl="www.laserforgeminis.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <costTypes>
     <costType id="ad49-076b-3854-f063" name="PC" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
