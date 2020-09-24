@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="77ed-c661-da0c-f1e3" name="Germany - Kriegsmarine" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="4728-e1b0-9a4c-5ecd" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="77ed-c661-da0c-f1e3" name="Germany - Kriegsmarine" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="4728-e1b0-9a4c-5ecd" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <comment>KM Fleet up-to-date 24-09-20</comment>
   <entryLinks>
     <entryLink id="d799-411f-c0b6-92e1" name="&quot;Bismarck&quot; Bismarck-class Battleship [COM]" hidden="false" collective="false" import="true" targetId="aaef-4fe3-6fae-8091" type="selectionEntry"/>
     <entryLink id="8f2e-2e93-1894-c206" name="Admiral Hipper-class Heavy Cruiser" hidden="false" collective="false" import="true" targetId="77ac-ca90-29bd-8b81" type="selectionEntry"/>
@@ -594,6 +595,9 @@
       <entryLinks>
         <entryLink id="d45e-1d43-ade3-48cc" name="Type 1936A Z23-class Destroyer" hidden="false" collective="false" import="true" targetId="0129-3f09-17dd-2a6b" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="PC" typeId="ad49-076b-3854-f063" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="96a1-3eaa-2ef9-a52b" name="&quot;Scharnhorst&quot;" hidden="false" collective="false" import="true" type="model">
       <constraints>
@@ -1434,6 +1438,9 @@
       <entryLinks>
         <entryLink id="3cd7-2427-6e6c-9152" name="Type 1936B Z35-class Destroyer" hidden="false" collective="false" import="true" targetId="0932-6078-833b-81c6" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="PC" typeId="ad49-076b-3854-f063" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3ce9-5079-0cfb-c1a6" name="&quot;Z36&quot;" hidden="false" collective="false" import="true" type="model">
       <constraints>

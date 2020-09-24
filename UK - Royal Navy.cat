@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d1e4-40b9-76f0-fb6e" name="UK - Royal Navy" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="4728-e1b0-9a4c-5ecd" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d1e4-40b9-76f0-fb6e" name="UK - Royal Navy" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="4728-e1b0-9a4c-5ecd" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="d799-411f-c0b6-92e1" name="King George-V-class Battleship [COM]" hidden="false" collective="false" import="true" targetId="d1ff-93af-d9fc-2467" type="selectionEntry"/>
     <entryLink id="c41b-7526-d4d5-763f" name="&quot;HMS Hood&quot; Admiral-Class Battlecruiser [COM]" hidden="false" collective="false" import="true" targetId="526c-cfe6-91e0-970d" type="selectionEntry"/>
@@ -169,6 +169,9 @@
       <entryLinks>
         <entryLink id="e924-03e3-5956-7b87" name="King George V-class Battleship" hidden="false" collective="false" import="true" targetId="ba69-51dc-3ceb-73a9" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="PC" typeId="ad49-076b-3854-f063" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b39d-963c-8303-5339" name="&quot;HMS King George V&quot; [COM]" hidden="false" collective="false" import="true" type="model">
       <constraints>
