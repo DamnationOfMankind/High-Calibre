@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dataIndex battleScribeVersion="2.03" name="High Calibre" indexUrl="https://raw.githubusercontent.com/DamnationOfMankind/High-Calibre/master/index.bsi" xmlns="http://www.battlescribe.net/schema/dataIndexSchema">
+  <dataIndexEntries>
+    <dataIndexEntry filePath="High Calibre.gstz" dataType="gamesystem" dataId="4728-e1b0-9a4c-5ecd" dataName="High Calibre" dataBattleScribeVersion="2.03" dataRevision="3"/>
+    <dataIndexEntry filePath="Germany - Kriegsmarine.catz" dataType="catalogue" dataId="77ed-c661-da0c-f1e3" dataName="Germany - Kriegsmarine" dataBattleScribeVersion="2.03" dataRevision="5"/>
+    <dataIndexEntry filePath="UK - Royal Navy.catz" dataType="catalogue" dataId="d1e4-40b9-76f0-fb6e" dataName="UK - Royal Navy" dataBattleScribeVersion="2.03" dataRevision="5"/>
+  </dataIndexEntries>
+</dataIndex>
